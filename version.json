@@ -1,10 +1,11 @@
 {
     "version": "1.112.0.0",
+    "supported_versions": ["1.112.0.0", "1.111.0.0", "1.110.0.0"],
     "license_status": "valid",
     "windows": "https://t.me/RouterManagerProBot?start=9826d0e9579f7a342deaa532560a13ec",
     "android": "https://play.google.com/store/apps/details?id=com.albarqi.routermanagerpro",
     "mac": "https://example.com/download/mac",
-    "ios": "https://example.com/download/ios",
+    "ios": "https://apps.apple.com/sa/app/%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D8%AA%D8%B1-%D8%A8%D8%B1%D9%88/id6753279491?l=ar",
     "app_status": "active",
     "license_expiry_date": "2025-12-31"
 }
