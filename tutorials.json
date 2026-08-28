@@ -2,7 +2,6 @@
   {
     "title": "عن التطبيق",
     "description": "نبذة تعريفية شاملة عن مميزات وإمكانيات تطبيق مدير الراوتر برو.",
-    "icon": "info-circle",
     "links": [
       { "platform": "youtube", "url": "https://www.youtube.com/watch?v=_EFP_ym4efI&list=RDMMrfD0CwXKDTQ&index=14" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -11,7 +10,6 @@
   {
     "title": "الإعداد الأول",
     "description": "خطوات ضبط الإعدادات الأولية للتطبيق عند التشغيل لأول مرة.",
-    "icon": "cog",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -20,7 +18,6 @@
   {
     "title": "إضافة جهاز والاتصال",
     "description": "طريقة إدخال بيانات الراوتر والاتصال به بنجاح.",
-    "icon": "plus-circle",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -29,7 +26,6 @@
   {
     "title": "قراءة البيانات",
     "description": "فهم حالة الاتصال والبيانات الظاهرة بعد تسجيل الدخول.",
-    "icon": "chart-bar",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -38,7 +34,6 @@
   {
     "title": "معلومات الجهاز",
     "description": "استعراض تفاصيل الموديل، الإصدار، والمعرفات الخاصة بالراوتر.",
-    "icon": "router",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -47,7 +42,6 @@
   {
     "title": "قياس السرعة",
     "description": "طريقة فحص سرعة الإنترنت مباشرة عبر سيرفرات عالمية.",
-    "icon": "tachometer-alt",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -56,7 +50,6 @@
   {
     "title": "تحفيز الدمج",
     "description": "آلية استخدام زر تحفيز الدمج لتنشيط الترددات الإضافية.",
-    "icon": "bolt",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -65,7 +58,6 @@
   {
     "title": "الترددات (المبسط)",
     "description": "عرض الترددات المتصلة حالياً بواجهة سهلة ومبسطة.",
-    "icon": "signal",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -74,7 +66,6 @@
   {
     "title": "الترددات (بطاقات تفصيلية)",
     "description": "استعراض الترددات النشطة عبر بطاقات معلومات متقدمة.",
-    "icon": "th-large",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -83,7 +74,6 @@
   {
     "title": "الترددات (جدول البيانات)",
     "description": "متابعة قراءات الترددات والإشارات عبر جدول بيانات متقدم.",
-    "icon": "table",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -92,7 +82,6 @@
   {
     "title": "وزن الانتينا",
     "description": "استخدام صفحة توجيه وتوزين الإنتاين الحية لتحسين الإشارة.",
-    "icon": "satellite-dish",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -101,7 +90,6 @@
   {
     "title": "تغيير الترددات",
     "description": "كيفية اختيار وتثبيت ترددات 4G أو 5G محددة.",
-    "icon": "sliders-h",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -110,7 +98,6 @@
   {
     "title": "أوضاع الشبكة",
     "description": "التحويل بين أوضاع الاتصال المختلفة (Auto / 4G / 5G).",
-    "icon": "network-wired",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -119,7 +106,6 @@
   {
     "title": "تثبيت الخلايا (PCI)",
     "description": "طريقة تثبيت الاتصال على خلية واحدة أو عدة خلايا محددة.",
-    "icon": "lock",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -128,7 +114,6 @@
   {
     "title": "الخلايا المجاورة",
     "description": "فحص وتصفية بيانات الأبراج المجاورة المتاحة في التغطية.",
-    "icon": "broadcast-tower",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -137,7 +122,6 @@
   {
     "title": "خلايا أندرويد",
     "description": "قراءة وبيانات أبراج الاتصال عبر شريحة أجهزة أندرويد.",
-    "icon": "mobile-alt",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -146,7 +130,6 @@
   {
     "title": "سجل الخلايا",
     "description": "عرض وتتبع تاريخ الخلايا والأبراج التي ارتبط بها الجهاز.",
-    "icon": "history",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -155,7 +138,6 @@
   {
     "title": "التثبيت المباشر",
     "description": "طريقة التثبيت التلقائي على خلية مجاورة محددة بضغطة زر.",
-    "icon": "mouse-pointer",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -164,7 +146,6 @@
   {
     "title": "تغيير الـ IP",
     "description": "خطوات تجديد وتغيير عنوان الـ IP الخارجي للراوتر.",
-    "icon": "exchange-alt",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -173,7 +154,6 @@
   {
     "title": "تغيير الـ DNS",
     "description": "تعيين خوادم DNS مخصصة لتحسين التصفح والاستجابة.",
-    "icon": "globe",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -182,7 +162,6 @@
   {
     "title": "تعديل الـ IMEI",
     "description": "شرح طريقة كتابة وتعديل الرقم التسلسلي للأجهزة المدعومة.",
-    "icon": "barcode",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -191,7 +170,6 @@
   {
     "title": "تعديل الـ APN",
     "description": "إضافة وتعديل نقاط الوصول الخاصة بشركات الاتصالات.",
-    "icon": "key",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -200,7 +178,6 @@
   {
     "title": "أوامر AT Commands",
     "description": "إرسال وتنفذ الأوامر البرمجية المباشرة للأجهزة المدعومة.",
-    "icon": "terminal",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -209,7 +186,6 @@
   {
     "title": "التحسين الذكي",
     "description": "استخدام أدوات التحسين التلقائي لرفع الأداء وتخفيض البنج.",
-    "icon": "magic",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -218,7 +194,6 @@
   {
     "title": "تحسين السرعة",
     "description": "خطوات اختيار أفضل دمج للحصول على أعلى سرعة تنزيل.",
-    "icon": "download",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -227,7 +202,6 @@
   {
     "title": "تحسين الرفع (Upload)",
     "description": "تحديد ترددات الرفع الأساسية لزيادة سرعة الرفع.",
-    "icon": "upload",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -236,7 +210,6 @@
   {
     "title": "تحسين الاستجابة (Ping)",
     "description": "ضبط الترددات وتقليل التداخل لتحسين استقرار الألعاب.",
-    "icon": "gamepad",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -245,7 +218,6 @@
   {
     "title": "فحص الترددات",
     "description": "مسح وشامل للترددات المدعومة والنشطة في موقعك.",
-    "icon": "search-location",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -254,7 +226,6 @@
   {
     "title": "إجراءات الراوتر",
     "description": "طريقة إعادة التشغيل، الإيقاف، واستعادة إعدادات المصنع.",
-    "icon": "power-off",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -263,7 +234,6 @@
   {
     "title": "تفعيل الاشتراك",
     "description": "شرح طريقة تفعيل وتجديد الاشتراك داخل تطبيق مدير الراوتر برو.",
-    "icon": "key",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -272,7 +242,6 @@
   {
     "title": "إدارة الأجهزة",
     "description": "كيفية حفظ وإدارة أكثر من جهاز راوتر للتنقل بينها بسهولة.",
-    "icon": "layer-group",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -281,7 +250,6 @@
   {
     "title": "تخصيص الواجهة",
     "description": "تعديل مدة التحديث، طريقة العرض، والمظهر (داكن/فاتح/النظام).",
-    "icon": "palette",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -290,7 +258,6 @@
   {
     "title": "تغيير اللغة",
     "description": "خطوات التحويل بين اللغات المدعومة داخل التطبيق.",
-    "icon": "language",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -299,7 +266,6 @@
   {
     "title": "إدارة شبكة الواي فاي (Wi-Fi)",
     "description": "تغيير اسم الشبكة والرمز السري وإخفاء أو إظهار البث.",
-    "icon": "wifi",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -308,7 +274,6 @@
   {
     "title": "الأجهزة المتصلة",
     "description": "استعراض قائمة الأجهزة المتصلة بالراوتر وحظر أو سماح الاتصال.",
-    "icon": "users",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -317,7 +282,6 @@
   {
     "title": "الرسائل النصية (SMS)",
     "description": "قراءة الرسائل النصية الواردة إلى الشريحة وإرسال رسائل جديدة.",
-    "icon": "envelope",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -326,7 +290,6 @@
   {
     "title": "النسخ الاحتياطي للإعدادات",
     "description": "حفظ واسترجاع ملف إعدادات الراوتر والتطبيقات بسهولة.",
-    "icon": "save",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -335,7 +298,6 @@
   {
     "title": "الأجهزة المدعومة",
     "description": "قائمة بموديلات وأنواع الراوترات المتوافقة مع التطبيق.",
-    "icon": "list-check",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -344,7 +306,6 @@
   {
     "title": "حلول المشاكل والأعطال",
     "description": "حل مشكلات عدم الاتصال بالراوتر أو فشل تطبيق الترددات.",
-    "icon": "exclamation-triangle",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -353,7 +314,6 @@
   {
     "title": "الدعم الفني",
     "description": "طرق التواصل المباشر مع المطور للمساعدة أو تقديم اقتراحات.",
-    "icon": "headset",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
@@ -362,7 +322,6 @@
   {
     "title": "المتجر المعتمد",
     "description": "زيارة متجر البارقي تيك لشراء الأجهزة والملحقات المعتمدة.",
-    "icon": "shopping-cart",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/watch?v=123" },
       { "platform": "tiktok", "url": "https://tiktok.com/@user/video/123" }
