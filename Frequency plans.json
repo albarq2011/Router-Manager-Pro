@@ -1,0 +1,3438 @@
+[
+  {
+    "companyName": "STC",
+    "code": "42001",
+    "features": {
+      "BANDS": [
+        {
+          "name": "4G(B1)",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B3)",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B8)",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B28)",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B40)",
+          "bands4G": [
+            "B40P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "5G(N28)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "5G(N40)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "5G(N71)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "5G(N77)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "5G(N78)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "PING": [
+        {
+          "name": "B1+N40",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B3+N40",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B28+N40",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B8+N40",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B1+N77",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+N77",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+N77",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+N77",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+N78",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B3+N78",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B28+N78",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B8+N78",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "DOWNLOAD": [
+        {
+          "name": "B1+B3+B8+B28+B40+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N77",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N78+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N78+N40",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N40+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N40+N78",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        }
+      ],
+      "UPLOAD": [
+        {
+          "name": "B1+B3+B8+B28+B40+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N77",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N78+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N78+N40",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N40+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N40+N78",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        }
+      ],
+      "ALL": [
+        {
+          "name": "B1+B3+B28+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B28+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B3+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B3S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B28+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B3+B1+B28+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B28+B1+B3+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B3S"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B1+B3+B28+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B3+B1+B28+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B28+B1+B3+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B3S"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N77",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N78+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N78+N40",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N40+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N40+N78",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "companyName": "Mobily",
+    "code": "42003",
+    "features": {
+      "BANDS": [
+        {
+          "name": "4G(B1)",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B3)",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B20)",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B38)",
+          "bands4G": [
+            "B38P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B41)",
+          "bands4G": [
+            "B41P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "5G(N28)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "5G(N41)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "5G(N77)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "5G(N78)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "PING": [
+        {
+          "name": "B1+N41",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+N41",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+N41",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+N77",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+N77",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B20+N77",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+N78",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B3+N78",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B20+N78",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "DOWNLOAD": [
+        {
+          "name": "B1+B3+B20+B38+B41+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N77",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N77",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N77",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N78+N41",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N78+N41",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N78+N41",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N78+N41",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N78+N41",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N41+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N41+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N41+N78",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N41+N78",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N41+N78",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N28",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N28",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N28",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N28",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N28",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        }
+      ],
+      "UPLOAD": [
+        {
+          "name": "B1+B3+B20+B38+B41+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N77",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N77",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N77",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N78+N41",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N78+N41",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N78+N41",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N78+N41",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N78+N41",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N41+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N41+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N41+N78",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N41+N78",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N41+N78",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N28",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N28",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N28",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N28",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N28",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        }
+      ],
+      "ALL": [
+        {
+          "name": "B1+B3+B20+B38+B41+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N77",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N77",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N77",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N78+N41",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N78+N41",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N78+N41",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N78+N41",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N78+N41",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N41+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N41+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N41+N78",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N41+N78",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N41+N78",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+B3+B20+B38+B41+N28",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B3+B1+B20+B38+B41+N28",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B20S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B38+B41+N28",
+          "bands4G": [
+            "B20P",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B20+B41+N28",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38P",
+            "B41S"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "B41+B1+B3+B38+B20+N28",
+          "bands4G": [
+            "B20S",
+            "B1S",
+            "B3S",
+            "B38S",
+            "B41P"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "companyName": "Zain",
+    "code": "42004",
+    "features": {
+      "BANDS": [
+        {
+          "name": "4G(B1)",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B3)",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B8)",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B20)",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B38)",
+          "bands4G": [
+            "B38P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "5G(N41)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "5G(N71)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "5G(N78)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "PING": [
+        {
+          "name": "B1+N41",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+N41",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B8+N41",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+N41",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+N41",
+          "bands4G": [
+            "B38P"
+          ],
+          "bands5G": [
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+N78",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B3+N78",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B8+N78",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B20+N78",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B38+N78",
+          "bands4G": [
+            "B38P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B1+N71",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B3+N71",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B8+N71",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B20+N71",
+          "bands4G": [
+            "B20P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B38+N71",
+          "bands4G": [
+            "B38P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        }
+      ],
+      "DOWNLOAD": [
+        {
+          "name": "B1+B3+B8+B20+B38+N78+N41",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B20+B38+N41+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B20+B38+N71",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        }
+      ],
+      "UPLOAD": [
+        {
+          "name": "B1+B3+B8+B20+B38+N78+N41",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B20+B38+N41+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B20+B38+N71",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        }
+      ],
+      "ALL": [
+        {
+          "name": "B1+B3+B8+B20+B38+N78+N41",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N78+N41",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N78P",
+            "N41S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B20+B38+N41+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N41+N78",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N78S",
+            "N41P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B20+B38+N71",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B20+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3P",
+            "B8S",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B8+B1+B3+B20+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8P",
+            "B20S",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B20+B1+B3+B8+B38+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20P",
+            "B38S"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "B38+B1+B3+B8+B20+N71",
+          "bands4G": [
+            "B1S",
+            "B3S",
+            "B8S",
+            "B20S",
+            "B38P"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "companyName": "Virgin",
+    "code": "42005",
+    "features": {
+      "BANDS": [
+        {
+          "name": "4G(B1)",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B3)",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B8)",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B28)",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "4G(B40)",
+          "bands4G": [
+            "B40P"
+          ],
+          "bands5G": [
+            "ALL"
+          ]
+        },
+        {
+          "name": "5G(N28)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N28P"
+          ]
+        },
+        {
+          "name": "5G(N40)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "5G(N71)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N71P"
+          ]
+        },
+        {
+          "name": "5G(N77)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "5G(N78)",
+          "bands4G": [
+            "ALL"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "PING": [
+        {
+          "name": "B1+N40",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B3+N40",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B28+N40",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B8+N40",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B1+N77",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+N77",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+N77",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+N77",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+N78",
+          "bands4G": [
+            "B1P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B3+N78",
+          "bands4G": [
+            "B3P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B28+N78",
+          "bands4G": [
+            "B28P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B8+N78",
+          "bands4G": [
+            "B8P"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        }
+      ],
+      "UPLOAD": [
+        {
+          "name": "B1+B3+B8+B28+B40+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N77",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N78+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N78+N40",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N40+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N40+N78",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        }
+      ],
+      "DOWNLOAD": [
+        {
+          "name": "B1+B3+B8+B28+B40+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N77",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N78+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N78+N40",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N40+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N40+N78",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        }
+      ],
+      "ALL": [
+        {
+          "name": "B1+B3+B28+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B28+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B3+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B3S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B28+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B3+B1+B28+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B28+B1+B3+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B3S"
+          ],
+          "bands5G": [
+            "N78P"
+          ]
+        },
+        {
+          "name": "B1+B3+B28+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B3+B1+B28+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B28S"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B28+B1+B3+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B3S"
+          ],
+          "bands5G": [
+            "N40P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N77",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N77",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N77",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N77",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N77P"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N78+N40",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N78+N40",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N78+N40",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N78P",
+            "N40S"
+          ]
+        },
+        {
+          "name": "B1+B3+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B1P",
+            "B3S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B3+B1+B8+B28+B40+N40+N78",
+          "bands4G": [
+            "B3P",
+            "B1S",
+            "B8S",
+            "B28S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B28+B1+B8+B3+B40+N40+N78",
+          "bands4G": [
+            "B28P",
+            "B1S",
+            "B8S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        },
+        {
+          "name": "B8+B1+B28+B3+B40+N40+N78",
+          "bands4G": [
+            "B8P",
+            "B1S",
+            "B28S",
+            "B3S",
+            "B40S"
+          ],
+          "bands5G": [
+            "N40P",
+            "N78S"
+          ]
+        }
+      ]
+    }
+  }
+]
