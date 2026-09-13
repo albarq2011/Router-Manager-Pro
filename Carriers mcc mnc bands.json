@@ -1,7 +1,7 @@
 [
   {
     "name": "STC",
-    "country": "السعودية",
+    "country": "المملكة العربية السعودية",
     "mcc_mnc": "42001",
     "bands_4g": [
       "B1",
@@ -20,7 +20,7 @@
   },
   {
     "name": "Mobily",
-    "country": "السعودية",
+    "country": "المملكة العربية السعودية",
     "mcc_mnc": "42003",
     "bands_4g": [
       "B1",
@@ -38,7 +38,7 @@
   },
   {
     "name": "Zain KSA",
-    "country": "السعودية",
+    "country": "المملكة العربية السعودية",
     "mcc_mnc": "42004",
     "bands_4g": [
       "B1",
@@ -55,7 +55,7 @@
   },
   {
     "name": "Etisalat (e&)",
-    "country": "الإمارات",
+    "country": "الإمارات العربية المتحدة",
     "mcc_mnc": "42402",
     "bands_4g": [
       "B3",
@@ -70,7 +70,7 @@
   },
   {
     "name": "du",
-    "country": "الإمارات",
+    "country": "الإمارات العربية المتحدة",
     "mcc_mnc": "42403",
     "bands_4g": [
       "B1",
@@ -379,7 +379,7 @@
   },
   {
     "name": "Turkcell",
-    "country": "تركيا",
+    "country": "Türkiye",
     "mcc_mnc": "28601",
     "bands_4g": [
       "B1",
@@ -394,7 +394,7 @@
   },
   {
     "name": "Vodafone Turkey",
-    "country": "تركيا",
+    "country": "Türkiye",
     "mcc_mnc": "28602",
     "bands_4g": [
       "B1",
@@ -409,7 +409,7 @@
   },
   {
     "name": "Turk Telekom",
-    "country": "تركيا",
+    "country": "Türkiye",
     "mcc_mnc": "28603",
     "bands_4g": [
       "B1",
@@ -644,7 +644,7 @@
   },
   {
     "name": "MCI (Hamrahe Avval)",
-    "country": "إيران",
+    "country": "ایران",
     "mcc_mnc": "43211",
     "bands_4g": [
       "B1",
@@ -656,7 +656,7 @@
   },
   {
     "name": "Irancell (MTN)",
-    "country": "إيران",
+    "country": "ایران",
     "mcc_mnc": "43235",
     "bands_4g": [
       "B1",
@@ -668,7 +668,7 @@
   },
   {
     "name": "Jazz (Pakistan)",
-    "country": "باكستان",
+    "country": "پاکستان",
     "mcc_mnc": "41001",
     "bands_4g": [
       "B3",
@@ -682,7 +682,7 @@
   },
   {
     "name": "Zong",
-    "country": "باكستان",
+    "country": "پاکستان",
     "mcc_mnc": "41004",
     "bands_4g": [
       "B3",
@@ -696,7 +696,7 @@
   },
   {
     "name": "Telenor Pakistan",
-    "country": "باكستان",
+    "country": "پاکستان",
     "mcc_mnc": "41006",
     "bands_4g": [
       "B3",
@@ -707,7 +707,7 @@
   },
   {
     "name": "Afghan Wireless (AWCC)",
-    "country": "أفغانستان",
+    "country": "افغانستان",
     "mcc_mnc": "41201",
     "bands_4g": [
       "B3",
@@ -717,7 +717,7 @@
   },
   {
     "name": "Roshan",
-    "country": "أفغانستان",
+    "country": "افغانستان",
     "mcc_mnc": "41220",
     "bands_4g": [
       "B3",
@@ -727,7 +727,7 @@
   },
   {
     "name": "AT&T",
-    "country": "أمريكا",
+    "country": "United States",
     "mcc_mnc": "310410",
     "bands_4g": [
       "B2",
@@ -748,7 +748,7 @@
   },
   {
     "name": "Verizon",
-    "country": "أمريكا",
+    "country": "United States",
     "mcc_mnc": "311480",
     "bands_4g": [
       "B2",
@@ -767,7 +767,7 @@
   },
   {
     "name": "T-Mobile US",
-    "country": "أمريكا",
+    "country": "United States",
     "mcc_mnc": "310260",
     "bands_4g": [
       "B2",
@@ -786,7 +786,7 @@
   },
   {
     "name": "Vodafone UK",
-    "country": "بريطانيا",
+    "country": "United Kingdom",
     "mcc_mnc": "23415",
     "bands_4g": [
       "B1",
@@ -803,7 +803,7 @@
   },
   {
     "name": "EE",
-    "country": "بريطانيا",
+    "country": "United Kingdom",
     "mcc_mnc": "23430",
     "bands_4g": [
       "B1",
@@ -820,7 +820,7 @@
   },
   {
     "name": "O2 UK",
-    "country": "بريطانيا",
+    "country": "United Kingdom",
     "mcc_mnc": "23410",
     "bands_4g": [
       "B1",
@@ -835,7 +835,7 @@
   },
   {
     "name": "Three UK",
-    "country": "بريطانيا",
+    "country": "United Kingdom",
     "mcc_mnc": "23420",
     "bands_4g": [
       "B1",
@@ -848,7 +848,7 @@
   },
   {
     "name": "Deutsche Telekom",
-    "country": "ألمانيا",
+    "country": "Deutschland",
     "mcc_mnc": "26201",
     "bands_4g": [
       "B1",
@@ -865,7 +865,7 @@
   },
   {
     "name": "Vodafone Germany",
-    "country": "ألمانيا",
+    "country": "Deutschland",
     "mcc_mnc": "26202",
     "bands_4g": [
       "B1",
@@ -881,7 +881,7 @@
   },
   {
     "name": "O2 Germany (Telefonica)",
-    "country": "ألمانيا",
+    "country": "Deutschland",
     "mcc_mnc": "26207",
     "bands_4g": [
       "B1",
@@ -898,7 +898,7 @@
   },
   {
     "name": "Orange France",
-    "country": "فرنسا",
+    "country": "France",
     "mcc_mnc": "20801",
     "bands_4g": [
       "B1",
@@ -913,7 +913,7 @@
   },
   {
     "name": "SFR",
-    "country": "فرنسا",
+    "country": "France",
     "mcc_mnc": "20810",
     "bands_4g": [
       "B1",
@@ -928,7 +928,7 @@
   },
   {
     "name": "Bouygues Telecom",
-    "country": "فرنسا",
+    "country": "France",
     "mcc_mnc": "20820",
     "bands_4g": [
       "B1",
@@ -943,7 +943,7 @@
   },
   {
     "name": "Free Mobile",
-    "country": "فرنسا",
+    "country": "France",
     "mcc_mnc": "20815",
     "bands_4g": [
       "B1",
@@ -958,7 +958,7 @@
   },
   {
     "name": "China Mobile",
-    "country": "الصين",
+    "country": "中国",
     "mcc_mnc": "46000",
     "bands_4g": [
       "B3",
@@ -975,7 +975,7 @@
   },
   {
     "name": "China Unicom",
-    "country": "الصين",
+    "country": "中国",
     "mcc_mnc": "46001",
     "bands_4g": [
       "B1",
@@ -990,7 +990,7 @@
   },
   {
     "name": "China Telecom",
-    "country": "الصين",
+    "country": "中国",
     "mcc_mnc": "46011",
     "bands_4g": [
       "B1",
@@ -1003,7 +1003,7 @@
   },
   {
     "name": "NTT Docomo",
-    "country": "اليابان",
+    "country": "日本",
     "mcc_mnc": "44010",
     "bands_4g": [
       "B1",
@@ -1022,7 +1022,7 @@
   },
   {
     "name": "SoftBank",
-    "country": "اليابان",
+    "country": "日本",
     "mcc_mnc": "44020",
     "bands_4g": [
       "B1",
@@ -1039,7 +1039,7 @@
   },
   {
     "name": "au (KDDI)",
-    "country": "اليابان",
+    "country": "日本",
     "mcc_mnc": "44051",
     "bands_4g": [
       "B1",
@@ -1057,7 +1057,7 @@
   },
   {
     "name": "SK Telecom",
-    "country": "كوريا الجنوبية",
+    "country": "대한민국",
     "mcc_mnc": "45005",
     "bands_4g": [
       "B1",
@@ -1072,7 +1072,7 @@
   },
   {
     "name": "KT",
-    "country": "كوريا الجنوبية",
+    "country": "대한민국",
     "mcc_mnc": "45002",
     "bands_4g": [
       "B1",
@@ -1085,7 +1085,7 @@
   },
   {
     "name": "LG U+",
-    "country": "كوريا الجنوبية",
+    "country": "대한민국",
     "mcc_mnc": "45006",
     "bands_4g": [
       "B1",
@@ -1098,7 +1098,7 @@
   },
   {
     "name": "Reliance Jio",
-    "country": "الهند",
+    "country": "भारत",
     "mcc_mnc": "405857",
     "bands_4g": [
       "B3",
@@ -1112,7 +1112,7 @@
   },
   {
     "name": "Airtel India",
-    "country": "الهند",
+    "country": "भारत",
     "mcc_mnc": "40445",
     "bands_4g": [
       "B3",
@@ -1127,7 +1127,7 @@
   },
   {
     "name": "Vodafone Idea (Vi)",
-    "country": "الهند",
+    "country": "भारत",
     "mcc_mnc": "40411",
     "bands_4g": [
       "B3",
@@ -1140,7 +1140,7 @@
   },
   {
     "name": "MTN South Africa",
-    "country": "جنوب أفريقيا",
+    "country": "South Africa",
     "mcc_mnc": "65510",
     "bands_4g": [
       "B1",
@@ -1155,7 +1155,7 @@
   },
   {
     "name": "Vodacom",
-    "country": "جنوب أفريقيا",
+    "country": "South Africa",
     "mcc_mnc": "65501",
     "bands_4g": [
       "B1",
@@ -1170,7 +1170,7 @@
   },
   {
     "name": "Safaricom",
-    "country": "كينيا",
+    "country": "Kenya",
     "mcc_mnc": "63902",
     "bands_4g": [
       "B3",
@@ -1184,7 +1184,7 @@
   },
   {
     "name": "Airtel Africa (Nigeria)",
-    "country": "نيجيريا",
+    "country": "Nigeria",
     "mcc_mnc": "62120",
     "bands_4g": [
       "B3",
@@ -1197,7 +1197,7 @@
   },
   {
     "name": "MTN Nigeria",
-    "country": "نيجيريا",
+    "country": "Nigeria",
     "mcc_mnc": "62130",
     "bands_4g": [
       "B3",
@@ -1210,7 +1210,7 @@
   },
   {
     "name": "Telcel",
-    "country": "المكسيك",
+    "country": "México",
     "mcc_mnc": "33420",
     "bands_4g": [
       "B2",
@@ -1225,7 +1225,7 @@
   },
   {
     "name": "Claro Brasil",
-    "country": "البرازيل",
+    "country": "Brasil",
     "mcc_mnc": "72405",
     "bands_4g": [
       "B3",
@@ -1238,7 +1238,7 @@
   },
   {
     "name": "Vivo (Telefonica Brasil)",
-    "country": "البرازيل",
+    "country": "Brasil",
     "mcc_mnc": "72406",
     "bands_4g": [
       "B3",
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "TIM Brasil",
-    "country": "البرازيل",
+    "country": "Brasil",
     "mcc_mnc": "72402",
     "bands_4g": [
       "B3",
@@ -1264,7 +1264,7 @@
   },
   {
     "name": "Movistar Spain",
-    "country": "إسبانيا",
+    "country": "España",
     "mcc_mnc": "21407",
     "bands_4g": [
       "B1",
@@ -1278,7 +1278,7 @@
   },
   {
     "name": "Vodafone Spain",
-    "country": "إسبانيا",
+    "country": "España",
     "mcc_mnc": "21401",
     "bands_4g": [
       "B1",
@@ -1292,7 +1292,7 @@
   },
   {
     "name": "Orange Spain",
-    "country": "إسبانيا",
+    "country": "España",
     "mcc_mnc": "21403",
     "bands_4g": [
       "B1",
@@ -1306,7 +1306,7 @@
   },
   {
     "name": "TIM Italia",
-    "country": "إيطاليا",
+    "country": "Italia",
     "mcc_mnc": "22201",
     "bands_4g": [
       "B1",
@@ -1320,7 +1320,7 @@
   },
   {
     "name": "Vodafone Italia",
-    "country": "إيطاليا",
+    "country": "Italia",
     "mcc_mnc": "22210",
     "bands_4g": [
       "B1",
@@ -1334,7 +1334,7 @@
   },
   {
     "name": "WindTre",
-    "country": "إيطاليا",
+    "country": "Italia",
     "mcc_mnc": "22288",
     "bands_4g": [
       "B1",
@@ -1348,7 +1348,7 @@
   },
   {
     "name": "MTS Russia",
-    "country": "روسيا",
+    "country": "Россия",
     "mcc_mnc": "25001",
     "bands_4g": [
       "B3",
@@ -1359,7 +1359,7 @@
   },
   {
     "name": "MegaFon",
-    "country": "روسيا",
+    "country": "Россия",
     "mcc_mnc": "25002",
     "bands_4g": [
       "B3",
@@ -1370,7 +1370,7 @@
   },
   {
     "name": "Beeline Russia",
-    "country": "روسيا",
+    "country": "Россия",
     "mcc_mnc": "25099",
     "bands_4g": [
       "B3",
@@ -1381,7 +1381,7 @@
   },
   {
     "name": "Telstra",
-    "country": "أستراليا",
+    "country": "Australia",
     "mcc_mnc": "50501",
     "bands_4g": [
       "B1",
@@ -1396,7 +1396,7 @@
   },
   {
     "name": "Optus",
-    "country": "أستراليا",
+    "country": "Australia",
     "mcc_mnc": "50502",
     "bands_4g": [
       "B1",
@@ -1411,7 +1411,7 @@
   },
   {
     "name": "Vodafone Australia (TPG)",
-    "country": "أستراليا",
+    "country": "Australia",
     "mcc_mnc": "50503",
     "bands_4g": [
       "B1",
@@ -1425,7 +1425,7 @@
   },
   {
     "name": "Rogers",
-    "country": "كندا",
+    "country": "Canada",
     "mcc_mnc": "302720",
     "bands_4g": [
       "B4",
@@ -1440,7 +1440,7 @@
   },
   {
     "name": "Bell Canada",
-    "country": "كندا",
+    "country": "Canada",
     "mcc_mnc": "302610",
     "bands_4g": [
       "B4",
@@ -1455,7 +1455,7 @@
   },
   {
     "name": "Telus",
-    "country": "كندا",
+    "country": "Canada",
     "mcc_mnc": "302220",
     "bands_4g": [
       "B4",
