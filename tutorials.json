@@ -35,8 +35,16 @@
     "title": "تحميل التطبيق لأجهزة الويندوز",
     "description": "تحميل احدث نسخة من تطبيق مدير الراوتر برو لأجهزة الويندوز",
     "links": [
-      { "platform": "youtube", "url": "" },
-      { "platform": "tiktok", "url": "" }
+      { "platform": "youtube", "url": "https://www.youtube.com/watch?v=4ypjFX0otM4" },
+      { "platform": "tiktok", "url": "https://www.tiktok.com/@albarqi_tech/video/7691225237307886856" }
+    ]
+  },
+  {
+    "title": "تفعيل التطبيق لأجهزة الويندوز",
+    "description": "طريقة تفعيل تطبيق مدير الراوتر برو لأجهزة الويندوز",
+    "links": [
+      { "platform": "youtube", "url": "https://www.youtube.com/watch?v=OgAQ4GY5RS8" },
+      { "platform": "tiktok", "url": "https://www.tiktok.com/@albarqi_tech/video/7691223666469768466" }
     ]
   },
   {
