@@ -9,10 +9,34 @@
   },
   {
     "title": "الإعداد الأولي واضافة جهاز",
-    "description": "خطوات ضبط الإعدادات الأولية للتطبيق عند التشغيل لأول مرة واضافة جهاز والاتصال به.",
+    "description": "طريقة الدخول واضافة جهاز عند استخدام التطبيق للمرة الأولى",
     "links": [
       { "platform": "youtube", "url": "https://youtube.com/shorts/Cd6ojzM8uD8" },
       { "platform": "tiktok", "url": "https://www.tiktok.com/@albarqi_tech/video/7690093947607190802" }
+    ]
+  },
+  {
+    "title": "تحميل التطبيق لأجهزة أبل",
+    "description": "تحميل احدث نسخة من تطبيق مدير الراوتر برو لأجهزة أبل",
+    "links": [
+      { "platform": "youtube", "url": "" },
+      { "platform": "tiktok", "url": "" }
+    ]
+  },
+  {
+    "title": "تحميل التطبيق لأجهزة الاندرويد",
+    "description": "تحميل احدث نسخة من تطبيق مدير الراوتر برو لأجهزة الاندرويد",
+    "links": [
+      { "platform": "youtube", "url": "https://youtube.com/shorts/d9lHwHHdhq8" },
+      { "platform": "tiktok", "url": "https://www.tiktok.com/@albarqi_tech/video/7690131158679440647" }
+    ]
+  },
+  {
+    "title": "تحميل التطبيق لأجهزة الويندوز",
+    "description": "تحميل احدث نسخة من تطبيق مدير الراوتر برو لأجهزة الويندوز",
+    "links": [
+      { "platform": "youtube", "url": "" },
+      { "platform": "tiktok", "url": "" }
     ]
   },
   {
