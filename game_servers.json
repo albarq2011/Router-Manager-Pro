@@ -1,267 +1,3312 @@
 {
-  "version": 5,
+  "version": 7,
   "games": [
     {
       "id": "valorant",
       "name": "VALORANT",
-      "platforms": ["PC", "PS5", "Xbox Series"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series"
+      ],
       "servers": [
-        {"name":"Bahrain","region":"ME","host":"104.160.146.1"},
-        {"name":"Frankfurt","region":"EU","host":"162.249.73.1"},
-        {"name":"Paris","region":"EU","host":"162.249.72.1"},
-        {"name":"London","region":"EU","host":"104.160.141.3"},
-        {"name":"Singapore","region":"ASIA","host":"151.106.248.1"},
-        {"name":"Tokyo","region":"ASIA","host":"104.160.129.1"}
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "99.83.199.240",
+          "testTarget": true
+        },
+        {
+          "name": "Europe 🇪🇺",
+          "region": "EU",
+          "host": "162.249.72.1",
+          "testTarget": true
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "151.106.248.1",
+          "testTarget": true
+        },
+        {
+          "name": "Asia Pacific 🌏",
+          "region": "ASIA",
+          "host": "43.229.65.1",
+          "testTarget": true
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "Paris 🇫🇷",
+          "region": "EU",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "",
+          "locationOnly": true
+        }
       ]
     },
     {
       "id": "fortnite",
       "name": "Fortnite",
-      "platforms": ["PC", "PS", "Xbox", "Switch", "Android", "iOS"],
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Switch",
+        "Android",
+        "iOS"
+      ],
       "servers": [
-        {"name":"Bahrain","region":"ME","host":"ping-bah.ds.on.epicgames.com"},
-        {"name":"Mumbai","region":"ME","host":"ping-mum.ds.on.epicgames.com"},
-        {"name":"Israel","region":"ME","host":"ping-il.ds.on.epicgames.com"},
-        {"name":"Germany","region":"EU","host":"ping-de.ds.on.epicgames.com"},
-        {"name":"France","region":"EU","host":"ping-fr.ds.on.epicgames.com"},
-        {"name":"United Kingdom","region":"EU","host":"ping-gb.ds.on.epicgames.com"},
-        {"name":"Tokyo","region":"ASIA","host":"ping-tok.ds.on.epicgames.com"},
-        {"name":"Sydney","region":"OCE","host":"ping-syd.ds.on.epicgames.com"},
-        {"name":"São Paulo","region":"SA","host":"ping-sao.ds.on.epicgames.com"},
-        {"name":"Virginia","region":"NA","host":"ping-va.ds.on.epicgames.com"}
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "ping-bah.ds.on.epicgames.com"
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ME",
+          "host": "ping-mum.ds.on.epicgames.com"
+        },
+        {
+          "name": "Germany 🇩🇪",
+          "region": "EU",
+          "host": "ping-de.ds.on.epicgames.com"
+        },
+        {
+          "name": "France 🇫🇷",
+          "region": "EU",
+          "host": "ping-fr.ds.on.epicgames.com"
+        },
+        {
+          "name": "United Kingdom 🇬🇧",
+          "region": "EU",
+          "host": "ping-gb.ds.on.epicgames.com"
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "ping-tok.ds.on.epicgames.com"
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "ping-syd.ds.on.epicgames.com"
+        },
+        {
+          "name": "São Paulo 🇧🇷",
+          "region": "SA",
+          "host": "ping-sao.ds.on.epicgames.com"
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "ping-va.ds.on.epicgames.com"
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "ping-or.ds.on.epicgames.com"
+        },
+        {
+          "name": "Northern California 🇺🇸",
+          "region": "NA",
+          "host": "ping-ncal.ds.on.epicgames.com"
+        },
+        {
+          "name": "Iowa 🇺🇸",
+          "region": "NA",
+          "host": "ping-ia.ds.on.epicgames.com"
+        },
+        {
+          "name": "Texas 🇺🇸",
+          "region": "NA",
+          "host": "ping-tx.ds.on.epicgames.com"
+        },
+        {
+          "name": "Mexico 🇲🇽",
+          "region": "NA",
+          "host": "ping-mx.ds.on.epicgames.com"
+        },
+        {
+          "name": "Ohio 🇺🇸",
+          "region": "NA",
+          "host": "ping-oh.ds.on.epicgames.com"
+        }
       ]
     },
     {
       "id": "ea-fc",
       "name": "EA SPORTS FC (FIFA)",
-      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
       "servers": [
-        {"name":"Dammam 🇸🇦","region":"ME","host":"","locationOnly":true},
-        {"name":"Dubai 🇦🇪","region":"ME","host":"","locationOnly":true},
-        {"name":"Manama 🇧🇭","region":"ME","host":"","locationOnly":true},
-        {"name":"Frankfurt","region":"EU","host":"","locationOnly":true},
-        {"name":"London","region":"EU","host":"","locationOnly":true},
-        {"name":"Paris","region":"EU","host":"","locationOnly":true},
-        {"name":"Singapore","region":"ASIA","host":"","locationOnly":true},
-        {"name":"Tokyo","region":"ASIA","host":"","locationOnly":true}
-      ]
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "official-locations-plus-alternative-regional-probes"
     },
     {
       "id": "call-of-duty",
       "name": "Call of Duty / Warzone",
-      "platforms": ["PC", "PS", "Xbox"],
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
       "servers": [
-        {"name":"Middle East","region":"ME","host":"64.176.162.16"},
-        {"name":"Frankfurt","region":"EU","host":"108.61.210.117"},
-        {"name":"London","region":"EU","host":"108.61.196.101"},
-        {"name":"Singapore","region":"ASIA","host":"45.32.100.168"},
-        {"name":"Tokyo","region":"ASIA","host":"108.61.201.151"},
-        {"name":"Dallas","region":"NA","host":"108.61.224.175"}
-      ]
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "apex-legends",
       "name": "Apex Legends",
-      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
       "servers": [
-        {"name":"Bahrain","region":"ME","host":"99.82.132.91"},
-        {"name":"Frankfurt","region":"EU","host":"52.94.141.14"},
-        {"name":"London","region":"EU","host":"13.43.48.202"},
-        {"name":"Singapore","region":"ASIA","host":"15.221.8.220"},
-        {"name":"Tokyo","region":"ASIA","host":"99.77.58.84"},
-        {"name":"Oregon","region":"NA","host":"52.119.174.12"}
-      ]
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "cs2",
       "name": "Counter-Strike 2",
-      "platforms": ["PC"],
+      "platforms": [
+        "PC"
+      ],
       "servers": [
-        {"name":"Dubai","region":"ME","host":"185.25.183.1"},
-        {"name":"Frankfurt","region":"EU","host":"155.133.226.1"},
-        {"name":"Stockholm","region":"EU","host":"155.133.252.1"},
-        {"name":"Singapore","region":"ASIA","host":"103.28.54.1"},
-        {"name":"Tokyo","region":"ASIA","host":"45.121.186.1"},
-        {"name":"Sydney","region":"OCE","host":"103.10.125.1"}
+        {
+          "name": "Dubai 🇦🇪",
+          "region": "ME",
+          "host": "185.25.183.1",
+          "network": "Valve SDR",
+          "note": "Valve Dubai range 185.25.183.0/24"
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "Stockholm 🇸🇪",
+          "region": "EU",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "",
+          "locationOnly": true
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "",
+          "locationOnly": true
+        }
       ]
     },
     {
       "id": "overwatch-2",
       "name": "Overwatch 2",
-      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
       "servers": [
-        {"name":"Middle East","region":"ME","host":"34.18.0.1"},
-        {"name":"Europe 1","region":"EU","host":"185.60.114.159"},
-        {"name":"Europe 2","region":"EU","host":"185.60.112.157"},
-        {"name":"US West","region":"NA","host":"24.105.30.129"},
-        {"name":"US Central","region":"NA","host":"24.105.62.129"},
-        {"name":"Taiwan","region":"ASIA","host":"203.66.81.98"}
+        {
+          "name": "Middle East 🇸🇦",
+          "region": "ME",
+          "host": "34.18.0.1",
+          "testTarget": true
+        },
+        {
+          "name": "Middle East 🇸🇦",
+          "region": "ME",
+          "host": "34.1.32.1",
+          "testTarget": true
+        },
+        {
+          "name": "Europe 🇪🇺",
+          "region": "EU",
+          "host": "185.60.114.159",
+          "testTarget": true
+        },
+        {
+          "name": "Europe 🇪🇺",
+          "region": "EU",
+          "host": "185.60.112.157",
+          "testTarget": true
+        },
+        {
+          "name": "US West 🇺🇸",
+          "region": "NA",
+          "host": "24.105.30.129",
+          "testTarget": true
+        },
+        {
+          "name": "US Central 🇺🇸",
+          "region": "NA",
+          "host": "24.105.62.129",
+          "testTarget": true
+        },
+        {
+          "name": "Taiwan 🇹🇼",
+          "region": "ASIA",
+          "host": "203.66.81.98",
+          "testTarget": true
+        }
       ]
     },
     {
       "id": "marvel-rivals",
       "name": "Marvel Rivals",
-      "platforms": ["PC", "PS5", "Xbox Series"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series"
+      ],
       "servers": [
-        {"name":"Dammam","region":"ME","host":"34.166.114.48"},
-        {"name":"Frankfurt","region":"EU","host":"52.94.79.1"},
-        {"name":"Tokyo","region":"ASIA","host":"52.94.85.1"},
-        {"name":"Singapore","region":"ASIA","host":"52.94.87.1"},
-        {"name":"Sydney","region":"OCE","host":"52.94.88.1"},
-        {"name":"Oregon","region":"NA","host":"52.94.84.1"}
-      ]
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "battlefield-6",
       "name": "Battlefield 6",
-      "platforms": ["PC", "PS5", "Xbox Series"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series"
+      ],
       "servers": [
-        {"name":"Bahrain","region":"ME","host":"35.71.99.128"},
-        {"name":"Frankfurt","region":"EU","host":"35.71.105.10"},
-        {"name":"London","region":"EU","host":"35.71.111.102"},
-        {"name":"Singapore","region":"ASIA","host":"35.71.118.128"},
-        {"name":"Tokyo","region":"ASIA","host":"52.94.8.118"},
-        {"name":"Sydney","region":"OCE","host":"35.71.97.129"}
-      ]
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "league-of-legends",
       "name": "League of Legends",
-      "platforms": ["PC"],
+      "platforms": [
+        "PC"
+      ],
       "servers": [
-        {"name":"Middle East","region":"ME","host":"104.160.146.1"},
-        {"name":"EU West","region":"EU","host":"104.160.141.3"},
-        {"name":"EU Nordic & East","region":"EU","host":"104.160.142.3"},
-        {"name":"North America","region":"NA","host":"104.160.131.3"},
-        {"name":"Oceania","region":"OCE","host":"104.160.156.1"}
-      ]
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "alternative-regional-probes"
     },
-
     {
       "id": "pubg",
       "name": "PUBG: Battlegrounds",
-      "platforms": ["PC", "PS", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Dynamic matchmaking; no stable public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "pubg-mobile",
       "name": "PUBG Mobile",
-      "platforms": ["Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Dynamic/mobile infrastructure; no stable public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "cod-mobile",
       "name": "Call of Duty Mobile",
-      "platforms": ["Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Dynamic/mobile infrastructure; no stable public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "efootball",
       "name": "eFootball",
-      "platforms": ["PC", "PS", "Xbox", "Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "No stable official public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "rocket-league",
       "name": "Rocket League",
-      "platforms": ["PC", "PS", "Xbox", "Switch"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "São Paulo 🇧🇷",
+          "region": "SA",
+          "host": "gamelift-ping.sa-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "official-regions-with-alternative-regional-probes"
     },
     {
       "id": "rainbow-six-siege",
       "name": "Rainbow Six Siege",
-      "platforms": ["PC", "PS", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "dota-2",
       "name": "Dota 2",
-      "platforms": ["PC"],
-      "servers": []
+      "platforms": [
+        "PC"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Uses Valve/Steam Datagram Relay; fixed per-city game IPs are not safe to hard-code.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "mobile-legends",
       "name": "Mobile Legends: Bang Bang",
-      "platforms": ["Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Dynamic/mobile infrastructure; no stable public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "free-fire",
       "name": "Free Fire",
-      "platforms": ["Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Saudi CST reports the tested game server location as Europe; no stable public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "honor-of-kings",
       "name": "Honor of Kings",
-      "platforms": ["Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "No stable official public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "genshin-impact",
       "name": "Genshin Impact",
-      "platforms": ["PC", "PS", "Xbox Series", "Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox Series",
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "No stable official public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "destiny-2",
       "name": "Destiny 2",
-      "platforms": ["PC", "PS", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Hybrid client-server/P2P networking; a single regional ping IP would be misleading.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "halo-infinite",
       "name": "Halo Infinite",
-      "platforms": ["PC", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Cloud matchmaking; no stable official public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "the-finals",
       "name": "THE FINALS",
-      "platforms": ["PC", "PS5", "Xbox Series"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "No stable official public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "war-thunder",
       "name": "War Thunder",
-      "platforms": ["PC", "PS", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "No stable official public ping IP verified.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "world-of-tanks",
       "name": "World of Tanks",
-      "platforms": ["PC", "PS", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "EU 1 🇪🇺",
+          "region": "EU",
+          "host": "login.p1.worldoftanks.eu",
+          "testTarget": true
+        },
+        {
+          "name": "EU 2 🇪🇺",
+          "region": "EU",
+          "host": "login.p2.worldoftanks.eu",
+          "testTarget": true
+        },
+        {
+          "name": "EU 3 🇪🇺",
+          "region": "EU",
+          "host": "login.p3.worldoftanks.eu",
+          "testTarget": true
+        },
+        {
+          "name": "EU 4 🇪🇺",
+          "region": "EU",
+          "host": "login.p4.worldoftanks.eu",
+          "testTarget": true
+        },
+        {
+          "name": "EU 5 🇪🇺",
+          "region": "EU",
+          "host": "login.p5.worldoftanks.eu",
+          "testTarget": true
+        }
+      ]
     },
     {
       "id": "gta-online",
       "name": "GTA Online",
-      "platforms": ["PC", "PS", "Xbox"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Session networking is not represented by one stable regional game-server IP.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "minecraft",
       "name": "Minecraft",
-      "platforms": ["PC", "PS", "Xbox", "Switch", "Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Switch",
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Servers are user/realm-specific; no single Minecraft game-server IP.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "roblox",
       "name": "Roblox",
-      "platforms": ["PC", "PS", "Xbox", "Android", "iOS"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox",
+        "Android",
+        "iOS"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Game instances are dynamically assigned; no stable per-region public ping IP.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "tekken-8",
       "name": "Tekken 8",
-      "platforms": ["PC", "PS5", "Xbox Series"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Online match path is not represented by one stable regional ping IP.",
+      "serverSource": "alternative-regional-probes"
     },
     {
       "id": "street-fighter-6",
       "name": "Street Fighter 6",
-      "platforms": ["PC", "PS", "Xbox Series", "Switch"],
-      "servers": []
+      "platforms": [
+        "PC",
+        "PS",
+        "Xbox Series",
+        "Switch"
+      ],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "UAE 🇦🇪",
+          "region": "ME",
+          "host": "gamelift-ping.me-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Frankfurt 🇩🇪",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "London 🇬🇧",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Singapore 🇸🇬",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "gamelift-ping.ap-southeast-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "gamelift-ping.us-west-2.api.aws",
+          "port": 7770,
+          "protocol": "UDP",
+          "alternative": true,
+          "alternativeType": "regional-latency-probe",
+          "note": "Regional latency probe; not the game's actual server."
+        }
+      ],
+      "note": "Online match path is not represented by one stable regional ping IP.",
+      "serverSource": "alternative-regional-probes"
     }
-  ]
+  ],
+  "probePolicy": {
+    "actual": "host is intended as a game/service endpoint when available",
+    "alternative": "host is a regional latency probe used only when a stable game endpoint is unavailable",
+    "warning": "Alternative probes estimate routing/latency to a nearby region and must not be presented as the game's actual server."
+  }
 }
