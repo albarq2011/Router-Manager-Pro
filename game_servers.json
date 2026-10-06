@@ -1,1 +1,58 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "id": "valorant",
+      "name": "VALORANT",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC",
+          "servers": [
+            {
+              "id": "bahrain",
+              "name": "Bahrain",
+              "region": "Middle East",
+              "host": "example.com"
+            },
+            {
+              "id": "frankfurt",
+              "name": "Frankfurt",
+              "region": "Europe",
+              "host": "example.com"
+            }
+          ]
+        }
+      ]
+    },
 
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "platforms": [
+        {
+          "id": "pc",
+          "name": "PC",
+          "servers": [
+            {
+              "id": "middle-east",
+              "name": "Middle East",
+              "region": "Middle East",
+              "host": "example.com"
+            }
+          ]
+        },
+        {
+          "id": "playstation",
+          "name": "PlayStation",
+          "servers": []
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox",
+          "servers": []
+        }
+      ]
+    }
+  ]
+}
