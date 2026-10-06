@@ -1,489 +1,267 @@
 {
-  "version": 1,
+  "version": 5,
   "games": [
     {
       "id": "valorant",
       "name": "VALORANT",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "104.160.146.1" },
-            { "id": "london", "name": "London", "host": "104.160.141.3" },
-            { "id": "paris", "name": "Paris", "host": "162.249.72.1" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "162.249.73.1" },
-            { "id": "stockholm", "name": "Stockholm", "host": "162.249.74.1" },
-            { "id": "warsaw", "name": "Warsaw", "host": "162.249.75.1" },
-            { "id": "ashburn", "name": "Ashburn", "host": "104.160.131.3" },
-            { "id": "chicago", "name": "Chicago", "host": "104.160.136.3" },
-            { "id": "dallas", "name": "Dallas", "host": "104.160.151.182" },
-            { "id": "los-angeles", "name": "Los Angeles", "host": "104.160.159.1" },
-            { "id": "atlanta", "name": "Atlanta", "host": "104.160.156.1" },
-            { "id": "seattle", "name": "Seattle", "host": "104.160.158.1" },
-            { "id": "tokyo", "name": "Tokyo", "host": "104.160.129.1" },
-            { "id": "seoul", "name": "Seoul", "host": "104.160.142.1" },
-            { "id": "singapore", "name": "Singapore", "host": "151.106.248.1" },
-            { "id": "hong-kong", "name": "Hong Kong", "host": "104.160.144.1" },
-            { "id": "mumbai", "name": "Mumbai", "host": "151.106.246.1" },
-            { "id": "sydney", "name": "Sydney", "host": "43.229.64.1" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "104.160.152.1" },
-            { "id": "santiago", "name": "Santiago", "host": "104.160.154.1" }
-          ]
-        }
+      "platforms": ["PC", "PS5", "Xbox Series"],
+      "servers": [
+        {"name":"Bahrain","region":"ME","host":"104.160.146.1"},
+        {"name":"Frankfurt","region":"EU","host":"162.249.73.1"},
+        {"name":"Paris","region":"EU","host":"162.249.72.1"},
+        {"name":"London","region":"EU","host":"104.160.141.3"},
+        {"name":"Singapore","region":"ASIA","host":"151.106.248.1"},
+        {"name":"Tokyo","region":"ASIA","host":"104.160.129.1"}
       ]
     },
-
     {
       "id": "fortnite",
       "name": "Fortnite",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "ping-bah.ds.on.epicgames.com" },
-            { "id": "mumbai", "name": "Mumbai", "host": "ping-mum.ds.on.epicgames.com" },
-            { "id": "israel", "name": "Israel", "host": "ping-il.ds.on.epicgames.com" },
-            { "id": "uk", "name": "United Kingdom", "host": "ping-gb.ds.on.epicgames.com" },
-            { "id": "france", "name": "France", "host": "ping-fr.ds.on.epicgames.com" },
-            { "id": "germany", "name": "Germany", "host": "ping-de.ds.on.epicgames.com" },
-            { "id": "tokyo", "name": "Tokyo", "host": "ping-tok.ds.on.epicgames.com" },
-            { "id": "sydney", "name": "Sydney", "host": "ping-syd.ds.on.epicgames.com" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "ping-sao.ds.on.epicgames.com" },
-            { "id": "oregon", "name": "Oregon", "host": "ping-or.ds.on.epicgames.com" },
-            { "id": "n-california", "name": "Northern California", "host": "ping-ncal.ds.on.epicgames.com" },
-            { "id": "iowa", "name": "Iowa", "host": "ping-ia.ds.on.epicgames.com" },
-            { "id": "texas", "name": "Texas", "host": "ping-tx.ds.on.epicgames.com" },
-            { "id": "mexico", "name": "Mexico", "host": "ping-mx.ds.on.epicgames.com" },
-            { "id": "ohio", "name": "Ohio", "host": "ping-oh.ds.on.epicgames.com" },
-            { "id": "virginia", "name": "Virginia", "host": "ping-va.ds.on.epicgames.com" }
-          ]
-        },
-        {
-          "id": "playstation",
-          "name": "PlayStation",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "ping-bah.ds.on.epicgames.com" },
-            { "id": "mumbai", "name": "Mumbai", "host": "ping-mum.ds.on.epicgames.com" },
-            { "id": "israel", "name": "Israel", "host": "ping-il.ds.on.epicgames.com" },
-            { "id": "uk", "name": "United Kingdom", "host": "ping-gb.ds.on.epicgames.com" },
-            { "id": "france", "name": "France", "host": "ping-fr.ds.on.epicgames.com" },
-            { "id": "germany", "name": "Germany", "host": "ping-de.ds.on.epicgames.com" },
-            { "id": "tokyo", "name": "Tokyo", "host": "ping-tok.ds.on.epicgames.com" },
-            { "id": "sydney", "name": "Sydney", "host": "ping-syd.ds.on.epicgames.com" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "ping-sao.ds.on.epicgames.com" },
-            { "id": "oregon", "name": "Oregon", "host": "ping-or.ds.on.epicgames.com" },
-            { "id": "n-california", "name": "Northern California", "host": "ping-ncal.ds.on.epicgames.com" },
-            { "id": "iowa", "name": "Iowa", "host": "ping-ia.ds.on.epicgames.com" },
-            { "id": "texas", "name": "Texas", "host": "ping-tx.ds.on.epicgames.com" },
-            { "id": "mexico", "name": "Mexico", "host": "ping-mx.ds.on.epicgames.com" },
-            { "id": "ohio", "name": "Ohio", "host": "ping-oh.ds.on.epicgames.com" },
-            { "id": "virginia", "name": "Virginia", "host": "ping-va.ds.on.epicgames.com" }
-          ]
-        },
-        {
-          "id": "xbox",
-          "name": "Xbox",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "ping-bah.ds.on.epicgames.com" },
-            { "id": "mumbai", "name": "Mumbai", "host": "ping-mum.ds.on.epicgames.com" },
-            { "id": "israel", "name": "Israel", "host": "ping-il.ds.on.epicgames.com" },
-            { "id": "uk", "name": "United Kingdom", "host": "ping-gb.ds.on.epicgames.com" },
-            { "id": "france", "name": "France", "host": "ping-fr.ds.on.epicgames.com" },
-            { "id": "germany", "name": "Germany", "host": "ping-de.ds.on.epicgames.com" },
-            { "id": "tokyo", "name": "Tokyo", "host": "ping-tok.ds.on.epicgames.com" },
-            { "id": "sydney", "name": "Sydney", "host": "ping-syd.ds.on.epicgames.com" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "ping-sao.ds.on.epicgames.com" },
-            { "id": "oregon", "name": "Oregon", "host": "ping-or.ds.on.epicgames.com" },
-            { "id": "n-california", "name": "Northern California", "host": "ping-ncal.ds.on.epicgames.com" },
-            { "id": "iowa", "name": "Iowa", "host": "ping-ia.ds.on.epicgames.com" },
-            { "id": "texas", "name": "Texas", "host": "ping-tx.ds.on.epicgames.com" },
-            { "id": "mexico", "name": "Mexico", "host": "ping-mx.ds.on.epicgames.com" },
-            { "id": "ohio", "name": "Ohio", "host": "ping-oh.ds.on.epicgames.com" },
-            { "id": "virginia", "name": "Virginia", "host": "ping-va.ds.on.epicgames.com" }
-          ]
-        }
+      "platforms": ["PC", "PS", "Xbox", "Switch", "Android", "iOS"],
+      "servers": [
+        {"name":"Bahrain","region":"ME","host":"ping-bah.ds.on.epicgames.com"},
+        {"name":"Mumbai","region":"ME","host":"ping-mum.ds.on.epicgames.com"},
+        {"name":"Israel","region":"ME","host":"ping-il.ds.on.epicgames.com"},
+        {"name":"Germany","region":"EU","host":"ping-de.ds.on.epicgames.com"},
+        {"name":"France","region":"EU","host":"ping-fr.ds.on.epicgames.com"},
+        {"name":"United Kingdom","region":"EU","host":"ping-gb.ds.on.epicgames.com"},
+        {"name":"Tokyo","region":"ASIA","host":"ping-tok.ds.on.epicgames.com"},
+        {"name":"Sydney","region":"OCE","host":"ping-syd.ds.on.epicgames.com"},
+        {"name":"São Paulo","region":"SA","host":"ping-sao.ds.on.epicgames.com"},
+        {"name":"Virginia","region":"NA","host":"ping-va.ds.on.epicgames.com"}
       ]
     },
-
     {
-      "id": "counter-strike-2",
-      "name": "Counter-Strike 2",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "dubai", "name": "Dubai", "host": "185.25.183.1" },
-            { "id": "luxembourg", "name": "Luxembourg", "host": "146.66.152.1" },
-            { "id": "stockholm", "name": "Stockholm", "host": "146.66.156.1" },
-            { "id": "vienna", "name": "Vienna", "host": "146.66.155.1" },
-            { "id": "warsaw", "name": "Warsaw", "host": "155.133.240.1" },
-            { "id": "madrid", "name": "Madrid", "host": "155.133.246.1" },
-            { "id": "washington", "name": "Washington DC", "host": "208.78.164.1" },
-            { "id": "atlanta", "name": "Atlanta", "host": "162.254.199.1" },
-            { "id": "seattle", "name": "Seattle", "host": "192.69.96.1" },
-            { "id": "los-angeles", "name": "Los Angeles", "host": "162.254.194.1" },
-            { "id": "singapore", "name": "Singapore", "host": "103.28.54.1" },
-            { "id": "tokyo", "name": "Tokyo", "host": "45.121.186.1" },
-            { "id": "hong-kong", "name": "Hong Kong", "host": "155.133.244.1" },
-            { "id": "mumbai", "name": "Mumbai", "host": "180.149.41.1" },
-            { "id": "sydney", "name": "Sydney", "host": "103.10.125.1" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "209.197.29.1" },
-            { "id": "santiago", "name": "Santiago", "host": "155.133.249.1" },
-            { "id": "lima", "name": "Lima", "host": "143.137.146.1" }
-          ]
-        }
+      "id": "ea-fc",
+      "name": "EA SPORTS FC (FIFA)",
+      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "servers": [
+        {"name":"Dammam 🇸🇦","region":"ME","host":"","locationOnly":true},
+        {"name":"Dubai 🇦🇪","region":"ME","host":"","locationOnly":true},
+        {"name":"Manama 🇧🇭","region":"ME","host":"","locationOnly":true},
+        {"name":"Frankfurt","region":"EU","host":"","locationOnly":true},
+        {"name":"London","region":"EU","host":"","locationOnly":true},
+        {"name":"Paris","region":"EU","host":"","locationOnly":true},
+        {"name":"Singapore","region":"ASIA","host":"","locationOnly":true},
+        {"name":"Tokyo","region":"ASIA","host":"","locationOnly":true}
       ]
     },
-
     {
       "id": "call-of-duty",
-      "name": "Call of Duty",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "tel-aviv", "name": "Tel Aviv", "host": "64.176.162.16" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "108.61.198.102" },
-            { "id": "london", "name": "London", "host": "108.61.196.101" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "108.61.210.117" },
-            { "id": "paris", "name": "Paris", "host": "108.61.209.127" },
-            { "id": "madrid", "name": "Madrid", "host": "208.76.222.30" },
-            { "id": "atlanta", "name": "Atlanta", "host": "108.61.193.166" },
-            { "id": "chicago", "name": "Chicago", "host": "107.191.51.12" },
-            { "id": "dallas", "name": "Dallas", "host": "108.61.224.175" },
-            { "id": "los-angeles", "name": "Los Angeles", "host": "108.61.219.200" },
-            { "id": "miami", "name": "Miami", "host": "104.156.244.232" },
-            { "id": "new-york", "name": "New York", "host": "108.61.149.182" },
-            { "id": "san-francisco", "name": "San Francisco", "host": "104.156.230.107" },
-            { "id": "seattle", "name": "Seattle", "host": "108.61.194.105" },
-            { "id": "tokyo", "name": "Tokyo", "host": "108.61.201.151" },
-            { "id": "seoul", "name": "Seoul", "host": "141.164.34.61" },
-            { "id": "singapore", "name": "Singapore", "host": "45.32.100.168" },
-            { "id": "sydney", "name": "Sydney", "host": "108.61.212.117" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "216.238.98.118" },
-            { "id": "santiago", "name": "Santiago", "host": "64.176.2.7" }
-          ]
-        },
-        {
-          "id": "playstation",
-          "name": "PlayStation",
-          "servers": [
-            { "id": "tel-aviv", "name": "Tel Aviv", "host": "64.176.162.16" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "108.61.198.102" },
-            { "id": "london", "name": "London", "host": "108.61.196.101" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "108.61.210.117" },
-            { "id": "paris", "name": "Paris", "host": "108.61.209.127" },
-            { "id": "madrid", "name": "Madrid", "host": "208.76.222.30" },
-            { "id": "atlanta", "name": "Atlanta", "host": "108.61.193.166" },
-            { "id": "chicago", "name": "Chicago", "host": "107.191.51.12" },
-            { "id": "dallas", "name": "Dallas", "host": "108.61.224.175" },
-            { "id": "los-angeles", "name": "Los Angeles", "host": "108.61.219.200" },
-            { "id": "miami", "name": "Miami", "host": "104.156.244.232" },
-            { "id": "new-york", "name": "New York", "host": "108.61.149.182" },
-            { "id": "san-francisco", "name": "San Francisco", "host": "104.156.230.107" },
-            { "id": "seattle", "name": "Seattle", "host": "108.61.194.105" },
-            { "id": "tokyo", "name": "Tokyo", "host": "108.61.201.151" },
-            { "id": "seoul", "name": "Seoul", "host": "141.164.34.61" },
-            { "id": "singapore", "name": "Singapore", "host": "45.32.100.168" },
-            { "id": "sydney", "name": "Sydney", "host": "108.61.212.117" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "216.238.98.118" },
-            { "id": "santiago", "name": "Santiago", "host": "64.176.2.7" }
-          ]
-        },
-        {
-          "id": "xbox",
-          "name": "Xbox",
-          "servers": [
-            { "id": "tel-aviv", "name": "Tel Aviv", "host": "64.176.162.16" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "108.61.198.102" },
-            { "id": "london", "name": "London", "host": "108.61.196.101" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "108.61.210.117" },
-            { "id": "paris", "name": "Paris", "host": "108.61.209.127" },
-            { "id": "madrid", "name": "Madrid", "host": "208.76.222.30" },
-            { "id": "atlanta", "name": "Atlanta", "host": "108.61.193.166" },
-            { "id": "chicago", "name": "Chicago", "host": "107.191.51.12" },
-            { "id": "dallas", "name": "Dallas", "host": "108.61.224.175" },
-            { "id": "los-angeles", "name": "Los Angeles", "host": "108.61.219.200" },
-            { "id": "miami", "name": "Miami", "host": "104.156.244.232" },
-            { "id": "new-york", "name": "New York", "host": "108.61.149.182" },
-            { "id": "san-francisco", "name": "San Francisco", "host": "104.156.230.107" },
-            { "id": "seattle", "name": "Seattle", "host": "108.61.194.105" },
-            { "id": "tokyo", "name": "Tokyo", "host": "108.61.201.151" },
-            { "id": "seoul", "name": "Seoul", "host": "141.164.34.61" },
-            { "id": "singapore", "name": "Singapore", "host": "45.32.100.168" },
-            { "id": "sydney", "name": "Sydney", "host": "108.61.212.117" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "216.238.98.118" },
-            { "id": "santiago", "name": "Santiago", "host": "64.176.2.7" }
-          ]
-        }
+      "name": "Call of Duty / Warzone",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": [
+        {"name":"Middle East","region":"ME","host":"64.176.162.16"},
+        {"name":"Frankfurt","region":"EU","host":"108.61.210.117"},
+        {"name":"London","region":"EU","host":"108.61.196.101"},
+        {"name":"Singapore","region":"ASIA","host":"45.32.100.168"},
+        {"name":"Tokyo","region":"ASIA","host":"108.61.201.151"},
+        {"name":"Dallas","region":"NA","host":"108.61.224.175"}
       ]
     },
-
-    {
-      "id": "overwatch-2",
-      "name": "Overwatch 2",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "157.175.45.1" },
-            { "id": "dubai", "name": "Dubai", "host": "34.18.61.77" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "185.60.112.157" },
-            { "id": "paris", "name": "Paris", "host": "185.60.114.159" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "185.60.112.158" },
-            { "id": "los-angeles", "name": "Los Angeles", "host": "24.105.30.129" },
-            { "id": "chicago", "name": "Chicago", "host": "24.105.62.129" },
-            { "id": "new-york", "name": "New York", "host": "24.105.94.129" },
-            { "id": "singapore", "name": "Singapore", "host": "137.221.106.104" },
-            { "id": "seoul", "name": "Seoul", "host": "117.52.35.100" },
-            { "id": "tokyo", "name": "Tokyo", "host": "34.84.155.100" },
-            { "id": "taiwan", "name": "Taiwan", "host": "203.66.81.98" },
-            { "id": "sydney", "name": "Sydney", "host": "103.4.115.100" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "54.207.107.12" }
-          ]
-        }
-      ]
-    },
-
     {
       "id": "apex-legends",
       "name": "Apex Legends",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "99.82.132.91" },
-            { "id": "london", "name": "London", "host": "13.43.48.202" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "52.94.141.14" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "3.66.90.156" },
-            { "id": "belgium", "name": "Belgium", "host": "13.37.152.32" },
-            { "id": "virginia", "name": "Virginia", "host": "209.54.182.34" },
-            { "id": "oregon", "name": "Oregon", "host": "52.119.174.12" },
-            { "id": "ohio", "name": "Ohio", "host": "3.129.132.172" },
-            { "id": "dallas", "name": "Dallas", "host": "44.198.247.11" },
-            { "id": "tokyo", "name": "Tokyo", "host": "99.77.58.84" },
-            { "id": "singapore", "name": "Singapore", "host": "15.221.8.220" },
-            { "id": "hong-kong", "name": "Hong Kong", "host": "99.83.81.12" },
-            { "id": "sydney", "name": "Sydney", "host": "99.83.81.12" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "177.72.245.178" }
-          ]
-        },
-        {
-          "id": "playstation",
-          "name": "PlayStation",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "99.82.132.91" },
-            { "id": "london", "name": "London", "host": "13.43.48.202" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "52.94.141.14" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "3.66.90.156" },
-            { "id": "belgium", "name": "Belgium", "host": "13.37.152.32" },
-            { "id": "virginia", "name": "Virginia", "host": "209.54.182.34" },
-            { "id": "oregon", "name": "Oregon", "host": "52.119.174.12" },
-            { "id": "ohio", "name": "Ohio", "host": "3.129.132.172" },
-            { "id": "dallas", "name": "Dallas", "host": "44.198.247.11" },
-            { "id": "tokyo", "name": "Tokyo", "host": "99.77.58.84" },
-            { "id": "singapore", "name": "Singapore", "host": "15.221.8.220" },
-            { "id": "hong-kong", "name": "Hong Kong", "host": "99.83.81.12" },
-            { "id": "sydney", "name": "Sydney", "host": "99.83.81.12" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "177.72.245.178" }
-          ]
-        },
-        {
-          "id": "xbox",
-          "name": "Xbox",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "99.82.132.91" },
-            { "id": "london", "name": "London", "host": "13.43.48.202" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "52.94.141.14" },
-            { "id": "amsterdam", "name": "Amsterdam", "host": "3.66.90.156" },
-            { "id": "belgium", "name": "Belgium", "host": "13.37.152.32" },
-            { "id": "virginia", "name": "Virginia", "host": "209.54.182.34" },
-            { "id": "oregon", "name": "Oregon", "host": "52.119.174.12" },
-            { "id": "ohio", "name": "Ohio", "host": "3.129.132.172" },
-            { "id": "dallas", "name": "Dallas", "host": "44.198.247.11" },
-            { "id": "tokyo", "name": "Tokyo", "host": "99.77.58.84" },
-            { "id": "singapore", "name": "Singapore", "host": "15.221.8.220" },
-            { "id": "hong-kong", "name": "Hong Kong", "host": "99.83.81.12" },
-            { "id": "sydney", "name": "Sydney", "host": "99.83.81.12" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "177.72.245.178" }
-          ]
-        }
+      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "servers": [
+        {"name":"Bahrain","region":"ME","host":"99.82.132.91"},
+        {"name":"Frankfurt","region":"EU","host":"52.94.141.14"},
+        {"name":"London","region":"EU","host":"13.43.48.202"},
+        {"name":"Singapore","region":"ASIA","host":"15.221.8.220"},
+        {"name":"Tokyo","region":"ASIA","host":"99.77.58.84"},
+        {"name":"Oregon","region":"NA","host":"52.119.174.12"}
       ]
     },
-
     {
-      "id": "battlefield-6",
-      "name": "Battlefield 6",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "35.71.99.128" },
-            { "id": "london", "name": "London", "host": "35.71.111.102" },
-            { "id": "dublin", "name": "Dublin", "host": "35.71.75.100" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "35.71.105.10" },
-            { "id": "paris", "name": "Paris", "host": "35.71.101.129" },
-            { "id": "stockholm", "name": "Stockholm", "host": "35.71.98.128" },
-            { "id": "virginia", "name": "Virginia", "host": "3.218.182.208" },
-            { "id": "ohio", "name": "Ohio", "host": "35.71.102.135" },
-            { "id": "california", "name": "California", "host": "35.71.117.132" },
-            { "id": "oregon", "name": "Oregon", "host": "35.71.66.124" },
-            { "id": "tokyo", "name": "Tokyo", "host": "52.94.8.118" },
-            { "id": "seoul", "name": "Seoul", "host": "35.71.109.128" },
-            { "id": "singapore", "name": "Singapore", "host": "35.71.118.128" },
-            { "id": "sydney", "name": "Sydney", "host": "35.71.97.129" },
-            { "id": "mumbai", "name": "Mumbai", "host": "35.71.100.130" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "35.71.106.104" }
-          ]
-        },
-        {
-          "id": "playstation",
-          "name": "PlayStation",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "35.71.99.128" },
-            { "id": "london", "name": "London", "host": "35.71.111.102" },
-            { "id": "dublin", "name": "Dublin", "host": "35.71.75.100" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "35.71.105.10" },
-            { "id": "paris", "name": "Paris", "host": "35.71.101.129" },
-            { "id": "stockholm", "name": "Stockholm", "host": "35.71.98.128" },
-            { "id": "virginia", "name": "Virginia", "host": "3.218.182.208" },
-            { "id": "ohio", "name": "Ohio", "host": "35.71.102.135" },
-            { "id": "california", "name": "California", "host": "35.71.117.132" },
-            { "id": "oregon", "name": "Oregon", "host": "35.71.66.124" },
-            { "id": "tokyo", "name": "Tokyo", "host": "52.94.8.118" },
-            { "id": "seoul", "name": "Seoul", "host": "35.71.109.128" },
-            { "id": "singapore", "name": "Singapore", "host": "35.71.118.128" },
-            { "id": "sydney", "name": "Sydney", "host": "35.71.97.129" },
-            { "id": "mumbai", "name": "Mumbai", "host": "35.71.100.130" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "35.71.106.104" }
-          ]
-        },
-        {
-          "id": "xbox",
-          "name": "Xbox",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "35.71.99.128" },
-            { "id": "london", "name": "London", "host": "35.71.111.102" },
-            { "id": "dublin", "name": "Dublin", "host": "35.71.75.100" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "35.71.105.10" },
-            { "id": "paris", "name": "Paris", "host": "35.71.101.129" },
-            { "id": "stockholm", "name": "Stockholm", "host": "35.71.98.128" },
-            { "id": "virginia", "name": "Virginia", "host": "3.218.182.208" },
-            { "id": "ohio", "name": "Ohio", "host": "35.71.102.135" },
-            { "id": "california", "name": "California", "host": "35.71.117.132" },
-            { "id": "oregon", "name": "Oregon", "host": "35.71.66.124" },
-            { "id": "tokyo", "name": "Tokyo", "host": "52.94.8.118" },
-            { "id": "seoul", "name": "Seoul", "host": "35.71.109.128" },
-            { "id": "singapore", "name": "Singapore", "host": "35.71.118.128" },
-            { "id": "sydney", "name": "Sydney", "host": "35.71.97.129" },
-            { "id": "mumbai", "name": "Mumbai", "host": "35.71.100.130" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "35.71.106.104" }
-          ]
-        }
+      "id": "cs2",
+      "name": "Counter-Strike 2",
+      "platforms": ["PC"],
+      "servers": [
+        {"name":"Dubai","region":"ME","host":"185.25.183.1"},
+        {"name":"Frankfurt","region":"EU","host":"155.133.226.1"},
+        {"name":"Stockholm","region":"EU","host":"155.133.252.1"},
+        {"name":"Singapore","region":"ASIA","host":"103.28.54.1"},
+        {"name":"Tokyo","region":"ASIA","host":"45.121.186.1"},
+        {"name":"Sydney","region":"OCE","host":"103.10.125.1"}
       ]
     },
-
+    {
+      "id": "overwatch-2",
+      "name": "Overwatch 2",
+      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "servers": [
+        {"name":"Middle East","region":"ME","host":"34.18.0.1"},
+        {"name":"Europe 1","region":"EU","host":"185.60.114.159"},
+        {"name":"Europe 2","region":"EU","host":"185.60.112.157"},
+        {"name":"US West","region":"NA","host":"24.105.30.129"},
+        {"name":"US Central","region":"NA","host":"24.105.62.129"},
+        {"name":"Taiwan","region":"ASIA","host":"203.66.81.98"}
+      ]
+    },
     {
       "id": "marvel-rivals",
       "name": "Marvel Rivals",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "52.94.91.1" },
-            { "id": "dublin", "name": "Dublin", "host": "52.94.76.1" },
-            { "id": "london", "name": "London", "host": "52.94.77.1" },
-            { "id": "paris", "name": "Paris", "host": "52.94.78.1" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "52.94.79.1" },
-            { "id": "stockholm", "name": "Stockholm", "host": "52.94.80.1" },
-            { "id": "virginia", "name": "Virginia", "host": "52.94.81.1" },
-            { "id": "ohio", "name": "Ohio", "host": "52.94.82.1" },
-            { "id": "california", "name": "California", "host": "52.94.83.1" },
-            { "id": "oregon", "name": "Oregon", "host": "52.94.84.1" },
-            { "id": "tokyo", "name": "Tokyo", "host": "52.94.85.1" },
-            { "id": "seoul", "name": "Seoul", "host": "52.94.86.1" },
-            { "id": "singapore", "name": "Singapore", "host": "52.94.87.1" },
-            { "id": "sydney", "name": "Sydney", "host": "52.94.88.1" },
-            { "id": "mumbai", "name": "Mumbai", "host": "52.94.89.1" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "52.94.90.1" }
-          ]
-        },
-        {
-          "id": "playstation",
-          "name": "PlayStation",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "52.94.91.1" },
-            { "id": "dublin", "name": "Dublin", "host": "52.94.76.1" },
-            { "id": "london", "name": "London", "host": "52.94.77.1" },
-            { "id": "paris", "name": "Paris", "host": "52.94.78.1" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "52.94.79.1" },
-            { "id": "stockholm", "name": "Stockholm", "host": "52.94.80.1" },
-            { "id": "virginia", "name": "Virginia", "host": "52.94.81.1" },
-            { "id": "ohio", "name": "Ohio", "host": "52.94.82.1" },
-            { "id": "california", "name": "California", "host": "52.94.83.1" },
-            { "id": "oregon", "name": "Oregon", "host": "52.94.84.1" },
-            { "id": "tokyo", "name": "Tokyo", "host": "52.94.85.1" },
-            { "id": "seoul", "name": "Seoul", "host": "52.94.86.1" },
-            { "id": "singapore", "name": "Singapore", "host": "52.94.87.1" },
-            { "id": "sydney", "name": "Sydney", "host": "52.94.88.1" },
-            { "id": "mumbai", "name": "Mumbai", "host": "52.94.89.1" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "52.94.90.1" }
-          ]
-        },
-        {
-          "id": "xbox",
-          "name": "Xbox",
-          "servers": [
-            { "id": "bahrain", "name": "Bahrain", "host": "52.94.91.1" },
-            { "id": "dublin", "name": "Dublin", "host": "52.94.76.1" },
-            { "id": "london", "name": "London", "host": "52.94.77.1" },
-            { "id": "paris", "name": "Paris", "host": "52.94.78.1" },
-            { "id": "frankfurt", "name": "Frankfurt", "host": "52.94.79.1" },
-            { "id": "stockholm", "name": "Stockholm", "host": "52.94.80.1" },
-            { "id": "virginia", "name": "Virginia", "host": "52.94.81.1" },
-            { "id": "ohio", "name": "Ohio", "host": "52.94.82.1" },
-            { "id": "california", "name": "California", "host": "52.94.83.1" },
-            { "id": "oregon", "name": "Oregon", "host": "52.94.84.1" },
-            { "id": "tokyo", "name": "Tokyo", "host": "52.94.85.1" },
-            { "id": "seoul", "name": "Seoul", "host": "52.94.86.1" },
-            { "id": "singapore", "name": "Singapore", "host": "52.94.87.1" },
-            { "id": "sydney", "name": "Sydney", "host": "52.94.88.1" },
-            { "id": "mumbai", "name": "Mumbai", "host": "52.94.89.1" },
-            { "id": "sao-paulo", "name": "São Paulo", "host": "52.94.90.1" }
-          ]
-        }
+      "platforms": ["PC", "PS5", "Xbox Series"],
+      "servers": [
+        {"name":"Dammam","region":"ME","host":"34.166.114.48"},
+        {"name":"Frankfurt","region":"EU","host":"52.94.79.1"},
+        {"name":"Tokyo","region":"ASIA","host":"52.94.85.1"},
+        {"name":"Singapore","region":"ASIA","host":"52.94.87.1"},
+        {"name":"Sydney","region":"OCE","host":"52.94.88.1"},
+        {"name":"Oregon","region":"NA","host":"52.94.84.1"}
+      ]
+    },
+    {
+      "id": "battlefield-6",
+      "name": "Battlefield 6",
+      "platforms": ["PC", "PS5", "Xbox Series"],
+      "servers": [
+        {"name":"Bahrain","region":"ME","host":"35.71.99.128"},
+        {"name":"Frankfurt","region":"EU","host":"35.71.105.10"},
+        {"name":"London","region":"EU","host":"35.71.111.102"},
+        {"name":"Singapore","region":"ASIA","host":"35.71.118.128"},
+        {"name":"Tokyo","region":"ASIA","host":"52.94.8.118"},
+        {"name":"Sydney","region":"OCE","host":"35.71.97.129"}
+      ]
+    },
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "platforms": ["PC"],
+      "servers": [
+        {"name":"Middle East","region":"ME","host":"104.160.146.1"},
+        {"name":"EU West","region":"EU","host":"104.160.141.3"},
+        {"name":"EU Nordic & East","region":"EU","host":"104.160.142.3"},
+        {"name":"North America","region":"NA","host":"104.160.131.3"},
+        {"name":"Oceania","region":"OCE","host":"104.160.156.1"}
       ]
     },
 
     {
-      "id": "league-of-legends",
-      "name": "League of Legends",
-      "platforms": [
-        {
-          "id": "pc",
-          "name": "PC",
-          "servers": [
-            { "id": "euw", "name": "EU West - Amsterdam", "host": "104.160.141.3" },
-            { "id": "eune", "name": "EU Nordic & East - Frankfurt", "host": "104.160.142.3" },
-            { "id": "turkey", "name": "Turkey - Istanbul", "host": "104.160.143.3" },
-            { "id": "na", "name": "North America - Chicago", "host": "104.160.131.3" },
-            { "id": "lan", "name": "Latin America - Miami", "host": "104.160.136.3" },
-            { "id": "japan", "name": "Japan - Tokyo", "host": "104.160.129.3" },
-            { "id": "korea", "name": "Korea - Seoul", "host": "104.160.142.1" },
-            { "id": "singapore", "name": "Singapore", "host": "151.106.248.3" },
-            { "id": "oceania", "name": "Oceania - Sydney", "host": "104.160.156.1" },
-            { "id": "brazil", "name": "Brazil - São Paulo", "host": "104.160.152.3" }
-          ]
-        }
-      ]
+      "id": "pubg",
+      "name": "PUBG: Battlegrounds",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "pubg-mobile",
+      "name": "PUBG Mobile",
+      "platforms": ["Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "cod-mobile",
+      "name": "Call of Duty Mobile",
+      "platforms": ["Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "efootball",
+      "name": "eFootball",
+      "platforms": ["PC", "PS", "Xbox", "Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "rocket-league",
+      "name": "Rocket League",
+      "platforms": ["PC", "PS", "Xbox", "Switch"],
+      "servers": []
+    },
+    {
+      "id": "rainbow-six-siege",
+      "name": "Rainbow Six Siege",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "dota-2",
+      "name": "Dota 2",
+      "platforms": ["PC"],
+      "servers": []
+    },
+    {
+      "id": "mobile-legends",
+      "name": "Mobile Legends: Bang Bang",
+      "platforms": ["Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "free-fire",
+      "name": "Free Fire",
+      "platforms": ["Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "honor-of-kings",
+      "name": "Honor of Kings",
+      "platforms": ["Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "platforms": ["PC", "PS", "Xbox Series", "Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "destiny-2",
+      "name": "Destiny 2",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "halo-infinite",
+      "name": "Halo Infinite",
+      "platforms": ["PC", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "the-finals",
+      "name": "THE FINALS",
+      "platforms": ["PC", "PS5", "Xbox Series"],
+      "servers": []
+    },
+    {
+      "id": "war-thunder",
+      "name": "War Thunder",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "world-of-tanks",
+      "name": "World of Tanks",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "gta-online",
+      "name": "GTA Online",
+      "platforms": ["PC", "PS", "Xbox"],
+      "servers": []
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "platforms": ["PC", "PS", "Xbox", "Switch", "Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "platforms": ["PC", "PS", "Xbox", "Android", "iOS"],
+      "servers": []
+    },
+    {
+      "id": "tekken-8",
+      "name": "Tekken 8",
+      "platforms": ["PC", "PS5", "Xbox Series"],
+      "servers": []
+    },
+    {
+      "id": "street-fighter-6",
+      "name": "Street Fighter 6",
+      "platforms": ["PC", "PS", "Xbox Series", "Switch"],
+      "servers": []
     }
   ]
 }
