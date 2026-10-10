@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "games": [
     {
       "id": "pubg",
@@ -105,8 +105,7 @@
             "Xbox"
           ]
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "pubg-mobile",
@@ -180,8 +179,7 @@
           "verification": "region-known-host-not-published",
           "sourceUrl": "https://www.pubgmobile.com/esports/clubopen/pdf/region_info.pdf"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "fortnite",
@@ -194,7 +192,98 @@
         "Android",
         "iOS"
       ],
-      "servers": [],
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭",
+          "region": "ME",
+          "host": "ping-bah.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Mumbai 🇮🇳",
+          "region": "ASIA",
+          "host": "ping-mum.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Germany 🇩🇪",
+          "region": "EU",
+          "host": "ping-de.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "France 🇫🇷",
+          "region": "EU",
+          "host": "ping-fr.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "United Kingdom 🇬🇧",
+          "region": "EU",
+          "host": "ping-gb.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Tokyo 🇯🇵",
+          "region": "ASIA",
+          "host": "ping-tok.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Sydney 🇦🇺",
+          "region": "OCE",
+          "host": "ping-syd.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "São Paulo 🇧🇷",
+          "region": "SA",
+          "host": "ping-sao.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Virginia 🇺🇸",
+          "region": "NA",
+          "host": "ping-va.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Ohio 🇺🇸",
+          "region": "NA",
+          "host": "ping-oh.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Texas 🇺🇸",
+          "region": "NA",
+          "host": "ping-tx.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Iowa 🇺🇸",
+          "region": "NA",
+          "host": "ping-ia.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Northern California 🇺🇸",
+          "region": "NA",
+          "host": "ping-ncal.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Oregon 🇺🇸",
+          "region": "NA",
+          "host": "ping-or.ds.on.epicgames.com",
+          "testTarget": true
+        },
+        {
+          "name": "Mexico 🇲🇽",
+          "region": "NA",
+          "host": "ping-mx.ds.on.epicgames.com",
+          "testTarget": true
+        }
+      ],
       "note": "ONLY documented Epic ICMP diagnostic endpoints (not guaranteed live ICMP response or actual match host). Bahrain prioritized. No unlisted regional aggregates.",
       "serverSource": "official-diagnostic-endpoints-and-documented-geography",
       "platformDetails": [
@@ -208,190 +297,7 @@
         "Android",
         "iPhone / iPad"
       ],
-      "knownRegions": [],
-      "candidateServers": [
-        {
-          "name": "Bahrain 🇧🇭",
-          "region": "ME",
-          "host": "ping-bah.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Mumbai 🇮🇳",
-          "region": "ASIA",
-          "host": "ping-mum.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Germany 🇩🇪",
-          "region": "EU",
-          "host": "ping-de.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "France 🇫🇷",
-          "region": "EU",
-          "host": "ping-fr.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "United Kingdom 🇬🇧",
-          "region": "EU",
-          "host": "ping-gb.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Tokyo 🇯🇵",
-          "region": "ASIA",
-          "host": "ping-tok.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Sydney 🇦🇺",
-          "region": "OCE",
-          "host": "ping-syd.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "São Paulo 🇧🇷",
-          "region": "SA",
-          "host": "ping-sao.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Virginia 🇺🇸",
-          "region": "NA",
-          "host": "ping-va.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Ohio 🇺🇸",
-          "region": "NA",
-          "host": "ping-oh.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Texas 🇺🇸",
-          "region": "NA",
-          "host": "ping-tx.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Iowa 🇺🇸",
-          "region": "NA",
-          "host": "ping-ia.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Northern California 🇺🇸",
-          "region": "NA",
-          "host": "ping-ncal.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Oregon 🇺🇸",
-          "region": "NA",
-          "host": "ping-or.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        },
-        {
-          "name": "Mexico 🇲🇽",
-          "region": "NA",
-          "host": "ping-mx.ds.on.epicgames.com",
-          "testTarget": false,
-          "probeType": "ICMP",
-          "verification": "official-published-diagnostic-target-not-live-tested",
-          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-37371353/a22355516?lang=en-US",
-          "status": "requires-local-reachability-check",
-          "liveTested": false,
-          "lastSuccessfulPingUtc": null
-        }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      "knownRegions": []
     },
     {
       "id": "ea-fc",
@@ -694,8 +600,7 @@
           "verification": "ea-published-fc-datacenter-location-no-public-probe",
           "sourceUrl": "https://help.ea.com/en/articles/ea-sports-fc/game-data-centers-fc/"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "overwatch-2",
@@ -766,8 +671,7 @@
           "verification": "regional-connectivity-no-game-host",
           "sourceUrl": "https://us.battle.net/support/en/article/7870"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "call-of-duty",
@@ -835,8 +739,7 @@
           "verification": "general-online-region-not-a-server-host",
           "sourceUrl": "https://support.activision.com/"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "cod-mobile",
@@ -873,8 +776,7 @@
           "sourceUrl": "https://support.activision.com/cod-mobile/articles/call-of-duty-mobile-region-changes",
           "note": "Account country is not server selection; platform auto-connects to closest physical servers"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "gta-online",
@@ -896,8 +798,7 @@
       ],
       "networkModel": "peer-to-peer",
       "gamePingTargetsAvailable": false,
-      "knownRegions": [],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      "knownRegions": []
     },
     {
       "id": "apex-legends",
@@ -985,8 +886,7 @@
           "verification": "historical-in-game-region-not-currently-confirmed",
           "sourceUrl": "https://help.ea.com/en/articles/apex-legends/troubleshoot-ping-packet-loss-lag/"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     },
     {
       "id": "rocket-league",
@@ -1117,17 +1017,16 @@
           "verification": "epic-published-rocket-league-region-no-public-host",
           "sourceUrl": "https://www.epicgames.com/help/c-37599050/a15871185"
         }
-      ],
-      "testAvailability": "No locally verified servers; do not show as pingable unless an on-device probe succeeds."
+      ]
     }
   ],
   "probePolicy": {
     "updatedOn": "2026-10-10",
-    "mode": "strict-no-untested-active-hosts",
-    "activeServers": "servers contains only hosts with a successful recent on-device probe; currently all empty because live external probes are unavailable in the authoring environment.",
-    "candidates": "candidateServers contains publisher-documented Fortnite diagnostic targets only. Not ping-ready until checked on user device.",
+    "mode": "compatible-original-servers-field",
+    "activeServers": "Fortnite publisher-documented ICMP endpoints only. These addresses have not been live-tested from users network.",
+    "candidates": "No candidateServers used. Existing apps load game.servers unchanged.",
     "activateCondition": "Resolve DNS and obtain at least 3 successful ICMP replies from 5 attempts from the users network; record verifiedAtUtc and recheck before a test.",
-    "failureHandling": "If probe fails, skip host without showing a numeric ping result. Never call a failed endpoint a working game server.",
+    "failureHandling": "A successful host resolution is not a successful ICMP probe. Failed ping can occur even on correct official diagnostic endpoints.",
     "regionalPriority": "Bahrain first, then Mumbai, then nearby Europe. Excluded user-requested geography remains omitted.",
     "notice": "A JSON file alone cannot make network hosts 100% reachable. 0 active endpoints is intentional, not a claim that game services are down."
   }
