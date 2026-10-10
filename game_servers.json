@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "games": [
     {
       "id": "pubg-mobile",
@@ -10,7 +10,7 @@
       ],
       "servers": [
         {
-          "name": "🇪🇺 Europe (candidate) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇪🇺 Europe ⚠️",
           "region": "EU",
           "host": "162.62.115.42",
           "platforms": [
@@ -36,7 +36,7 @@
       ],
       "servers": [
         {
-          "name": "🇧🇭 Bahrain [🧪 تشخيص رسمي]",
+          "name": "🇧🇭 Bahrain رسمي",
           "region": "ME",
           "host": "ping-bah.ds.on.epicgames.com",
           "platforms": [
@@ -52,7 +52,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇮🇳 Mumbai [🧪 تشخيص رسمي]",
+          "name": "🇮🇳 Mumbai رسمي",
           "region": "ASIA",
           "host": "ping-mum.ds.on.epicgames.com",
           "platforms": [
@@ -68,7 +68,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇩🇪 Germany [🧪 تشخيص رسمي]",
+          "name": "🇩🇪 Germany رسمي",
           "region": "EU",
           "host": "ping-de.ds.on.epicgames.com",
           "platforms": [
@@ -84,7 +84,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇫🇷 France [🧪 تشخيص رسمي]",
+          "name": "🇫🇷 France رسمي",
           "region": "EU",
           "host": "ping-fr.ds.on.epicgames.com",
           "platforms": [
@@ -100,7 +100,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇬🇧 London [🧪 تشخيص رسمي]",
+          "name": "🇬🇧 London رسمي",
           "region": "EU",
           "host": "ping-gb.ds.on.epicgames.com",
           "platforms": [
@@ -116,7 +116,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌏 Asia [🧪 تشخيص رسمي]",
+          "name": "🌏 Asia رسمي",
           "region": "ASIA",
           "host": "ping-asia.ds.on.epicgames.com",
           "platforms": [
@@ -132,7 +132,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌎 NA East [🧪 تشخيص رسمي]",
+          "name": "🌎 NA East رسمي",
           "region": "NA",
           "host": "ping-nae.ds.on.epicgames.com",
           "platforms": [
@@ -148,7 +148,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌎 NA Central [🧪 تشخيص رسمي]",
+          "name": "🌎 NA Central رسمي",
           "region": "NA",
           "host": "ping-nac.ds.on.epicgames.com",
           "platforms": [
@@ -164,7 +164,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌎 NA West [🧪 تشخيص رسمي]",
+          "name": "🌎 NA West رسمي",
           "region": "NA",
           "host": "ping-naw.ds.on.epicgames.com",
           "platforms": [
@@ -180,7 +180,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇯🇵 Tokyo [🧪 تشخيص رسمي]",
+          "name": "🇯🇵 Tokyo رسمي",
           "region": "ASIA",
           "host": "ping-tok.ds.on.epicgames.com",
           "platforms": [
@@ -196,7 +196,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇦🇺 Sydney [🧪 تشخيص رسمي]",
+          "name": "🇦🇺 Sydney رسمي",
           "region": "OCE",
           "host": "ping-syd.ds.on.epicgames.com",
           "platforms": [
@@ -223,7 +223,7 @@
       ],
       "servers": [
         {
-          "name": "🌐 EA Online Service (not FC match server) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 EA Online Service ⚠️",
           "region": "UNKNOWN",
           "host": "easo.ea.com",
           "platforms": [
@@ -249,7 +249,7 @@
       ],
       "servers": [
         {
-          "name": "🌐 Rockstar Cloud (service only) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 Rockstar Cloud ⚠️",
           "region": "GLOBAL",
           "host": "prod.cloud.rockstargames.com",
           "platforms": [
@@ -264,7 +264,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Rockstar Cloud Locator (service only) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 Rockstar Cloud Locator ⚠️",
           "region": "GLOBAL",
           "host": "prod-locator-cloud.rockstargames.com",
           "platforms": [
@@ -279,7 +279,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Rockstar Patches (service; previous pass, latest failed) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 Rockstar Patches ⚠️",
           "region": "GLOBAL",
           "host": "patches.rockstargames.com",
           "platforms": [
@@ -295,7 +295,7 @@
           "lastPingStatus": "failed_latest_historical_success"
         },
         {
-          "name": "🌐 Rockstar Sign-in (service only) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 Rockstar Sign-in ⚠️",
           "region": "GLOBAL",
           "host": "signin.rockstargames.com",
           "platforms": [
@@ -322,7 +322,7 @@
       ],
       "servers": [
         {
-          "name": "🇪🇺 Blizzard diagnostic (candidate) 106ms [⚠️ تشخيص غير مؤكد]",
+          "name": "🇪🇺 Blizzard diagnostic ⚠️",
           "region": "EU",
           "host": "185.60.112.157",
           "platforms": [
@@ -336,7 +336,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌎 Blizzard diagnostic (candidate) 225ms [⚠️ تشخيص غير مؤكد]",
+          "name": "🌎 Blizzard diagnostic ⚠️",
           "region": "NA",
           "host": "24.105.62.129",
           "platforms": [
@@ -362,7 +362,7 @@
       ],
       "servers": [
         {
-          "name": "🌐 Community candidate (154ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "103.10.124.116",
           "platforms": [
@@ -376,7 +376,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (190ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "103.10.124.117",
           "platforms": [
@@ -390,7 +390,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (145ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "103.10.124.118",
           "platforms": [
@@ -404,7 +404,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (151ms; packet loss 33%) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "103.10.124.119",
           "platforms": [
@@ -419,7 +419,7 @@
           "packetLossPercent": 33
         },
         {
-          "name": "🌐 Community candidate (149ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "103.10.124.120",
           "platforms": [
@@ -433,7 +433,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (157ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "103.10.124.121",
           "platforms": [
@@ -447,7 +447,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (144ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "35.185.189.104",
           "platforms": [
@@ -461,7 +461,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (218ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "69.88.135.37",
           "platforms": [
@@ -475,7 +475,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (186ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "ASIA",
           "host": "104.199.182.138",
           "platforms": [
@@ -489,7 +489,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (123ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "EU",
           "host": "104.155.80.155",
           "platforms": [
@@ -503,7 +503,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (172ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "EU",
           "host": "130.211.51.110",
           "platforms": [
@@ -517,7 +517,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (210ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "NA",
           "host": "104.196.43.45",
           "platforms": [
@@ -531,7 +531,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (251ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "NA",
           "host": "35.196.104.104",
           "platforms": [
@@ -545,7 +545,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 Community candidate (237ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🌐 Community candidate ⚠️",
           "region": "NA",
           "host": "104.196.8.33",
           "platforms": [
@@ -569,7 +569,7 @@
       ],
       "servers": [
         {
-          "name": "🇩🇪 Frankfurt (community candidate, 107ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇩🇪 Frankfurt ⚠️",
           "region": "EU",
           "host": "43.157.16.76",
           "platforms": [
@@ -581,7 +581,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇬🇧 London (community candidate, 155ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇬🇧 London ⚠️",
           "region": "EU",
           "host": "193.118.33.58",
           "platforms": [
@@ -593,7 +593,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇨🇦 Toronto (community candidate, 194ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇨🇦 Toronto ⚠️",
           "region": "NA",
           "host": "128.1.253.200",
           "platforms": [
@@ -605,7 +605,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇺🇸 Ashburn (community candidate, 197ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇺🇸 Ashburn ⚠️",
           "region": "NA",
           "host": "43.166.175.69",
           "platforms": [
@@ -617,7 +617,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇺🇸 Chicago (community candidate, 193ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇺🇸 Chicago ⚠️",
           "region": "NA",
           "host": "98.98.97.38",
           "platforms": [
@@ -629,7 +629,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇮🇳 Mumbai (community candidate, 230ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇮🇳 Mumbai ⚠️",
           "region": "ASIA",
           "host": "156.59.186.17",
           "platforms": [
@@ -641,7 +641,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇳🇬 Lagos (community candidate, 226ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇳🇬 Lagos ⚠️",
           "region": "AFRICA",
           "host": "104.166.145.98",
           "platforms": [
@@ -653,7 +653,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇺🇸 Miami (community candidate, 236ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇺🇸 Miami ⚠️",
           "region": "NA",
           "host": "128.14.17.254",
           "platforms": [
@@ -665,7 +665,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇦🇪 Dubai (community candidate, 134ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇦🇪 Dubai ⚠️",
           "region": "ME",
           "host": "128.14.7.221",
           "platforms": [
@@ -677,7 +677,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇺🇸 Dallas (community candidate, 218ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇺🇸 Dallas ⚠️",
           "region": "NA",
           "host": "98.96.204.214",
           "platforms": [
@@ -689,7 +689,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇲🇽 Mexico (community candidate, 259ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇲🇽 Mexico ⚠️",
           "region": "NA",
           "host": "98.98.21.86",
           "platforms": [
@@ -701,7 +701,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇿🇦 Johannesburg (community candidate, 271ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇿🇦 Johannesburg ⚠️",
           "region": "AFRICA",
           "host": "107.155.35.9",
           "platforms": [
@@ -713,7 +713,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇨🇱 Santiago (community candidate, 289ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇨🇱 Santiago ⚠️",
           "region": "SA",
           "host": "98.98.9.182",
           "platforms": [
@@ -725,7 +725,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇧🇷 Sao Paulo (community candidate, 339ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇧🇷 Sao Paulo ⚠️",
           "region": "SA",
           "host": "43.135.198.143",
           "platforms": [
@@ -737,7 +737,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇯🇵 Tokyo (community candidate, 283ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇯🇵 Tokyo ⚠️",
           "region": "ASIA",
           "host": "43.167.240.93",
           "platforms": [
@@ -749,7 +749,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🇦🇺 Melbourne (community candidate, 401ms) [⚠️ سيرفر غير مؤكد]",
+          "name": "🇦🇺 Melbourne ⚠️",
           "region": "ASIA",
           "host": "199.182.233.121",
           "platforms": [
@@ -773,7 +773,7 @@
       ],
       "servers": [
         {
-          "name": "🌐 config.psynet.gg (service only, 108ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 config.psynet.gg ⚠️",
           "region": "GLOBAL",
           "host": "config.psynet.gg",
           "platforms": [
@@ -787,7 +787,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 psyonix.com (service only, 31ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 psyonix.com ⚠️",
           "region": "GLOBAL",
           "host": "psyonix.com",
           "platforms": [
@@ -801,7 +801,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 rl-cdn.psyonix.com (service only, 36ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 rl-cdn.psyonix.com ⚠️",
           "region": "GLOBAL",
           "host": "rl-cdn.psyonix.com",
           "platforms": [
@@ -815,7 +815,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 rocketleague.com (service only, 98ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 rocketleague.com ⚠️",
           "region": "GLOBAL",
           "host": "rocketleague.com",
           "platforms": [
@@ -840,7 +840,7 @@
       ],
       "servers": [
         {
-          "name": "🌐 support.activision.com (service only, 90ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 support.activision.com ⚠️",
           "region": "GLOBAL",
           "host": "support.activision.com",
           "platforms": [
@@ -853,7 +853,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 www.callofduty.com (service only, 86ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 www.callofduty.com ⚠️",
           "region": "GLOBAL",
           "host": "www.callofduty.com",
           "platforms": [
@@ -866,7 +866,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 profile.callofduty.com (service only, 84ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 profile.callofduty.com ⚠️",
           "region": "GLOBAL",
           "host": "profile.callofduty.com",
           "platforms": [
@@ -879,7 +879,7 @@
           "isMatchServerConfirmed": false
         },
         {
-          "name": "🌐 www.activision.com (service only, 81ms) [⚠️ خدمة / ليس سيرفر مباراة]",
+          "name": "🌐 www.activision.com ⚠️",
           "region": "GLOBAL",
           "host": "www.activision.com",
           "platforms": [
