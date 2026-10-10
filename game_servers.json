@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "games": [
     {
       "id": "pubg",
@@ -9,17 +9,154 @@
         "PS",
         "Xbox"
       ],
-      "servers": [],
-      "note": "PUBG PC/console is separate from Mobile. CST Q2 2026 measured PUBG toward Europe from Saudi Arabia. No public game-host targets were validated.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Steam (PC)",
-        "Epic Games (PC)",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not PUBG: BATTLEGROUNDS game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Europe - closest measured from Saudi Arabia 🇪🇺",
@@ -114,14 +251,146 @@
         "Android",
         "iOS"
       ],
-      "servers": [],
-      "note": "Regional geography only; Q2 2026 Saudi measurement confirms locally serviced latency but no published direct test host.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Android",
-        "iPhone",
-        "iPad"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not PUBG Mobile game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Saudi Arabia 🇸🇦",
@@ -197,106 +466,221 @@
           "name": "Bahrain 🇧🇭",
           "region": "ME",
           "host": "ping-bah.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
+        },
+        {
+          "name": "Middle East - region 🌍",
+          "region": "ME",
+          "host": "ping-me.ds.on.epicgames.com",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         },
         {
           "name": "Mumbai 🇮🇳",
           "region": "ASIA",
           "host": "ping-mum.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         },
         {
           "name": "Germany 🇩🇪",
           "region": "EU",
           "host": "ping-de.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         },
         {
           "name": "France 🇫🇷",
           "region": "EU",
           "host": "ping-fr.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         },
         {
           "name": "United Kingdom 🇬🇧",
           "region": "EU",
           "host": "ping-gb.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
+        },
+        {
+          "name": "Asia - region 🌏",
+          "region": "ASIA",
+          "host": "ping-asia.ds.on.epicgames.com",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
+        },
+        {
+          "name": "NA-East - region 🌎",
+          "region": "NA",
+          "host": "ping-nae.ds.on.epicgames.com",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
+        },
+        {
+          "name": "NA-Central - region 🌎",
+          "region": "NA",
+          "host": "ping-nac.ds.on.epicgames.com",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
+        },
+        {
+          "name": "NA-West - region 🌎",
+          "region": "NA",
+          "host": "ping-naw.ds.on.epicgames.com",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         },
         {
           "name": "Tokyo 🇯🇵",
           "region": "ASIA",
           "host": "ping-tok.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         },
         {
           "name": "Sydney 🇦🇺",
           "region": "OCE",
           "host": "ping-syd.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "São Paulo 🇧🇷",
-          "region": "SA",
-          "host": "ping-sao.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Virginia 🇺🇸",
-          "region": "NA",
-          "host": "ping-va.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Ohio 🇺🇸",
-          "region": "NA",
-          "host": "ping-oh.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Texas 🇺🇸",
-          "region": "NA",
-          "host": "ping-tx.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Iowa 🇺🇸",
-          "region": "NA",
-          "host": "ping-ia.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Northern California 🇺🇸",
-          "region": "NA",
-          "host": "ping-ncal.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Oregon 🇺🇸",
-          "region": "NA",
-          "host": "ping-or.ds.on.epicgames.com",
-          "testTarget": true
-        },
-        {
-          "name": "Mexico 🇲🇽",
-          "region": "NA",
-          "host": "ping-mx.ds.on.epicgames.com",
-          "testTarget": true
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch",
+            "Android",
+            "iOS"
+          ],
+          "protocol": "ICMP",
+          "testTarget": true,
+          "verification": "official-diagnostic-endpoint-not-live-tested",
+          "sourceUrl": "https://www.epicgames.com/help/c-34254770/c-38015632/a22355516",
+          "probeType": "ICMP"
         }
       ],
-      "note": "ONLY documented Epic ICMP diagnostic endpoints (not guaranteed live ICMP response or actual match host). Bahrain prioritized. No unlisted regional aggregates.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S",
-        "Nintendo Switch",
-        "Nintendo Switch 2",
-        "Android",
-        "iPhone / iPad"
-      ],
+      "note": "Official Epic ICMP diagnostic endpoints; live reachability varies by network. Not direct match-server IPs.",
+      "serverSource": "Epic Games official diagnostic endpoints",
       "knownRegions": []
     },
     {
@@ -308,18 +692,162 @@
         "Xbox",
         "Switch"
       ],
-      "servers": [],
-      "note": "FC 27 released Sep 25, 2026. EA lists game-data-center cities but does NOT publish a reliable fixed city-specific ping IP. Dammam, Dubai, Manama prioritized.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC (EA app / Steam / Epic)",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S",
-        "Nintendo Switch",
-        "Nintendo Switch 2"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not EA SPORTS FC 27 game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Dammam 🇸🇦",
@@ -611,18 +1139,162 @@
         "Xbox",
         "Switch"
       ],
-      "servers": [],
-      "note": "Overwatch (formerly Overwatch 2). CST Q2 2026 measured game service in Saudi Arabia. Dubai GMEC reference is from 2023, not current proof.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S",
-        "Nintendo Switch",
-        "Nintendo Switch 2 (via compatible software where available)"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not Overwatch game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Saudi Arabia 🇸🇦",
@@ -681,16 +1353,154 @@
         "PS",
         "Xbox"
       ],
-      "servers": [],
-      "note": "CST Q2 2026 reports a Saudi-based latency measurement for Call of Duty (not a guaranteed Warzone-only location). Activision does not provide per-location public ICMP host IPs.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not Call of Duty / Warzone game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Saudi Arabia 🇸🇦",
@@ -748,14 +1558,146 @@
         "Android",
         "iOS"
       ],
-      "servers": [],
-      "note": "Activision assigns closest physical servers automatically; region of account does not control game-server location. No public game ping IP.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Android",
-        "iPhone",
-        "iPad"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "Android",
+            "iOS"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not Call of Duty Mobile game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Gulf region 🌍",
@@ -786,18 +1728,154 @@
         "PS",
         "Xbox"
       ],
-      "servers": [],
-      "note": "Public GTA Online gameplay sessions generally use peer-to-peer networking. There is no universal game-server host per country to ping. A shared AWS address would be misleading.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
-      "networkModel": "peer-to-peer",
-      "gamePingTargetsAvailable": false,
+      "note": "AWS regional UDP latency probes only; these are not GTA Online game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": []
     },
     {
@@ -807,19 +1885,164 @@
         "PC",
         "PS",
         "Xbox",
-        "Switch 2"
+        "Switch"
       ],
-      "servers": [],
-      "note": "EA provides current ping in game via the Data Center screen. Bahrain entries are historically observed but do not have published IP targets. Switch 1 discontinued August 4, 2026.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S",
-        "Nintendo Switch 2"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not Apex Legends game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Bahrain 1 🇧🇭",
@@ -897,17 +2120,162 @@
         "Xbox",
         "Switch"
       ],
-      "servers": [],
-      "note": "Epic publishes regional matchmaking choices including ME, but not fixed IP targets. Select Middle East or Recommended in-game; live game RTT displayed by connection quality indicators.",
-      "serverSource": "official-diagnostic-endpoints-and-documented-geography",
-      "platformDetails": [
-        "Windows PC",
-        "PS4",
-        "PS5",
-        "Xbox One",
-        "Xbox Series X|S",
-        "Nintendo Switch"
+      "servers": [
+        {
+          "name": "Bahrain 🇧🇭 (Regional test, not game server)",
+          "region": "ME",
+          "host": "gamelift-ping.me-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Mumbai 🇮🇳 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-south-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Frankfurt 🇩🇪 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-central-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "London 🇬🇧 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-2.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Paris 🇫🇷 (Regional test, not game server)",
+          "region": "EU",
+          "host": "gamelift-ping.eu-west-3.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Singapore 🇸🇬 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-southeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Virginia 🇺🇸 (Regional test, not game server)",
+          "region": "NA",
+          "host": "gamelift-ping.us-east-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        },
+        {
+          "name": "Tokyo 🇯🇵 (Regional test, not game server)",
+          "region": "ASIA",
+          "host": "gamelift-ping.ap-northeast-1.api.aws",
+          "platforms": [
+            "PC",
+            "PS",
+            "Xbox",
+            "Switch"
+          ],
+          "protocol": "UDP",
+          "port": 7770,
+          "testTarget": true,
+          "alternative": true,
+          "alternativeType": "aws-regional-latency-only",
+          "verification": "official-aws-beacon-not-game-endpoint-not-live-tested",
+          "sourceUrl": "https://docs.aws.amazon.com/general/latest/gr/gamelift.html",
+          "probeType": "UDP"
+        }
       ],
+      "note": "AWS regional UDP latency probes only; these are not Rocket League game servers. Test using UDP port 7770 (not ICMP).",
+      "serverSource": "Amazon GameLift regional latency beacons (not the game)",
       "knownRegions": [
         {
           "name": "Middle East (ME) 🌍",
@@ -1019,15 +2387,5 @@
         }
       ]
     }
-  ],
-  "probePolicy": {
-    "updatedOn": "2026-10-10",
-    "mode": "compatible-original-servers-field",
-    "activeServers": "Fortnite publisher-documented ICMP endpoints only. These addresses have not been live-tested from users network.",
-    "candidates": "No candidateServers used. Existing apps load game.servers unchanged.",
-    "activateCondition": "Resolve DNS and obtain at least 3 successful ICMP replies from 5 attempts from the users network; record verifiedAtUtc and recheck before a test.",
-    "failureHandling": "A successful host resolution is not a successful ICMP probe. Failed ping can occur even on correct official diagnostic endpoints.",
-    "regionalPriority": "Bahrain first, then Mumbai, then nearby Europe. Excluded user-requested geography remains omitted.",
-    "notice": "A JSON file alone cannot make network hosts 100% reachable. 0 active endpoints is intentional, not a claim that game services are down."
-  }
+  ]
 }
